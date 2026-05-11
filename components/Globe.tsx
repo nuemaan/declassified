@@ -66,8 +66,14 @@ export default function Globe({ sightings }: GlobeProps) {
   const setInteracting = useArchive((s) => s.setGlobeInteracting);
   const interacting = useArchive((s) => s.globeInteracting);
 
-  // Markers — recomputed only when the dataset changes.
-  const markers = useMemo(() => sightings.map(toMarker), [sightings]);
+  // Timeline filter — markers whose date is past the playhead are hidden.
+  const revealedThrough = useArchive((s) => s.revealedThrough);
+
+  // Markers — recomputed when the dataset or timeline playhead changes.
+  const markers = useMemo(
+    () => sightings.filter((s) => s.date <= revealedThrough).map(toMarker),
+    [sightings, revealedThrough]
+  );
 
   // Track container size for the canvas.
   useEffect(() => {

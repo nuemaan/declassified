@@ -15,10 +15,11 @@ export function FeaturedDossierButton({ id, label }: FeaturedDossierButtonProps)
     <button
       type="button"
       onClick={() => setSelected(id)}
-      className="mt-2 inline-flex w-full items-center justify-between border border-archive-line bg-archive-void/40 px-2 py-1.5 text-[10px] uppercase tracking-wider2 text-phosphor/90 hover:border-phosphor/60 hover:bg-phosphor/5"
+      title={`Open featured dossier — ${label}`}
+      className="mt-2 inline-flex w-full items-center justify-between gap-2 border border-archive-line bg-archive-void/40 px-2 py-1.5 text-[10px] uppercase tracking-wider2 text-phosphor/90 hover:border-phosphor/60 hover:bg-phosphor/5"
     >
-      <span>▸ open featured</span>
-      <span className="text-archive-paperDim/80">{label}</span>
+      <span className="truncate">▸ featured</span>
+      <span className="truncate text-archive-paperDim/80">{label}</span>
     </button>
   );
 }

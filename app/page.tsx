@@ -3,6 +3,7 @@ import { ClassificationStamp } from "@/components/ClassificationStamp";
 import { Dossier } from "@/components/Dossier";
 import { FeaturedDossierButton } from "@/components/FeaturedDossierButton";
 import { GlobeMount } from "@/components/GlobeMount";
+import { Timeline } from "@/components/Timeline";
 import { manifest, sightings } from "@/lib/data";
 import { strangenessBucket } from "@/lib/strangeness";
 
@@ -25,8 +26,8 @@ export default function HomePage() {
       {/* Top-right: classification stamp */}
       <ClassificationStamp />
 
-      {/* Bottom-left: dataset readout */}
-      <div className="absolute bottom-12 left-4 z-20 select-none border border-archive-line bg-archive-panel/80 px-3 py-2 backdrop-blur-sm">
+      {/* Bottom-left: dataset readout (sits above the timeline strip) */}
+      <div className="absolute bottom-36 left-4 z-20 w-[224px] select-none border border-archive-line bg-archive-panel/80 px-3 py-2 backdrop-blur-sm md:bottom-32">
         <div className="text-[9px] uppercase tracking-wider2 text-archive-paperDim/80">
           dataset · {manifest.source}
         </div>
@@ -46,8 +47,11 @@ export default function HomePage() {
       {/* Dossier panel — slides in from the right when a sighting is selected */}
       <Dossier />
 
-      {/* Bottom-right: interaction hint */}
-      <div className="absolute bottom-12 right-4 z-20 select-none text-right text-[10px] uppercase tracking-wider2 text-archive-paperDim/80">
+      {/* Timeline scrubber — bottom strip */}
+      <Timeline />
+
+      {/* Bottom-right: interaction hint (sits above the timeline strip) */}
+      <div className="absolute bottom-36 right-4 z-20 select-none text-right text-[10px] uppercase tracking-wider2 text-archive-paperDim/80 md:bottom-32">
         <div>drag · spin</div>
         <div>scroll · zoom</div>
         <div>click · open dossier</div>
