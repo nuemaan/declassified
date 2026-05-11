@@ -5,6 +5,7 @@ import { ClassificationStamp } from "@/components/ClassificationStamp";
 import { ConnectionsToggle } from "@/components/ConnectionsToggle";
 import { Dossier } from "@/components/Dossier";
 import { FeaturedDossierButton } from "@/components/FeaturedDossierButton";
+import { FilterRail } from "@/components/FilterRail";
 import { GlobeMount } from "@/components/GlobeMount";
 import { LocalAnomalyButton } from "@/components/LocalAnomaly";
 import { Timeline } from "@/components/Timeline";
@@ -52,6 +53,9 @@ export default function HomePage() {
         <LocalAnomalyButton />
         <ConnectionsToggle />
       </div>
+
+      {/* Filter rail — slides in from the left, collapsible via edge tab */}
+      <FilterRail />
 
       {/* Dossier panel — slides in from the right when a sighting is selected */}
       <Dossier />

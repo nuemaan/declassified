@@ -1,4 +1,7 @@
 import { create } from "zustand";
+import type { Agency, SightingType } from "./types";
+
+type Bucket = "phosphor" | "amber" | "redalert";
 
 interface ArchiveState {
   /** ID of the currently focused sighting, or null. Drives the dossier panel. */
@@ -21,6 +24,17 @@ interface ArchiveState {
   /** True when Connections mode is on — draws arcs between similar sightings. */
   connectionsEnabled: boolean;
   toggleConnections: () => void;
+
+  /** Filter rail state. `null` for a dimension means "all". */
+  filterRailOpen: boolean;
+  agencyFilter: ReadonlySet<Agency> | null;
+  typeFilter: ReadonlySet<SightingType> | null;
+  bucketFilter: ReadonlySet<Bucket> | null;
+  toggleFilterRail: () => void;
+  setAgencyFilter: (next: ReadonlySet<Agency> | null) => void;
+  setTypeFilter: (next: ReadonlySet<SightingType> | null) => void;
+  setBucketFilter: (next: ReadonlySet<Bucket> | null) => void;
+  resetFilters: () => void;
 }
 
 const DEFAULT_END = "2026-12-31";
@@ -41,4 +55,15 @@ export const useArchive = create<ArchiveState>((set) => ({
 
   connectionsEnabled: false,
   toggleConnections: () => set((s) => ({ connectionsEnabled: !s.connectionsEnabled })),
+
+  filterRailOpen: false,
+  agencyFilter: null,
+  typeFilter: null,
+  bucketFilter: null,
+  toggleFilterRail: () => set((s) => ({ filterRailOpen: !s.filterRailOpen })),
+  setAgencyFilter: (next) => set({ agencyFilter: next }),
+  setTypeFilter: (next) => set({ typeFilter: next }),
+  setBucketFilter: (next) => set({ bucketFilter: next }),
+  resetFilters: () =>
+    set({ agencyFilter: null, typeFilter: null, bucketFilter: null }),
 }));

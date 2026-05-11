@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AIAnalyst } from "./AIAnalyst";
 import { audio } from "@/lib/audio";
 import { redactionsFor, segmentDescription } from "@/lib/redactions";
@@ -9,6 +9,8 @@ import { getSighting } from "@/lib/data";
 import { topMatches } from "@/lib/similarity";
 import { strangenessBucket } from "@/lib/strangeness";
 import { useArchive } from "@/lib/store";
+import type { Sighting } from "@/lib/types";
+import { loadUserSubmissions } from "@/lib/userSightings";
 import { TypewriterSegments } from "./Typewriter";
 
 const BUCKET_LABEL: Record<"phosphor" | "amber" | "redalert", string> = {
@@ -27,7 +29,18 @@ export function Dossier() {
   const selectedId = useArchive((s) => s.selectedSightingId);
   const setSelected = useArchive((s) => s.setSelected);
 
-  const sighting = selectedId ? getSighting(selectedId) : undefined;
+  // Look in the static index first, then fall back to user submissions so a
+  // user-submitted case still resolves when opened from the globe.
+  const [userSubmissions, setUserSubmissions] = useState<Sighting[]>([]);
+  useEffect(() => {
+    setUserSubmissions(loadUserSubmissions());
+    const onChange = () => setUserSubmissions(loadUserSubmissions());
+    window.addEventListener("declassified:user-sightings-changed", onChange);
+    return () => window.removeEventListener("declassified:user-sightings-changed", onChange);
+  }, []);
+  const sighting: Sighting | undefined = selectedId
+    ? getSighting(selectedId) ?? userSubmissions.find((s) => s.id === selectedId)
+    : undefined;
 
   // Close on Escape.
   useEffect(() => {
@@ -68,6 +81,7 @@ export function Dossier() {
             id={sighting.id}
             bucket={strangenessBucket(sighting.strangenessScore)}
             score={sighting.strangenessScore}
+            userSubmitted={!!sighting.userSubmitted}
             onClose={() => setSelected(null)}
           />
 
@@ -140,11 +154,13 @@ function DossierHeader({
   id,
   bucket,
   score,
+  userSubmitted,
   onClose,
 }: {
   id: string;
   bucket: "phosphor" | "amber" | "redalert";
   score: number;
+  userSubmitted: boolean;
   onClose: () => void;
 }) {
   return (
@@ -153,6 +169,11 @@ function DossierHeader({
         <div className={`border px-2 py-1 text-[9px] uppercase tracking-wider2 ${BUCKET_RING[bucket]}`}>
           {BUCKET_LABEL[bucket]}
         </div>
+        {userSubmitted ? (
+          <div className="border border-amber/70 bg-amber/10 px-2 py-1 text-[9px] uppercase tracking-wider2 text-amber">
+            [user-submitted]
+          </div>
+        ) : null}
         <div className="text-[10px] uppercase tracking-wider2 text-archive-paperDim/80">
           strangeness {score}/10
         </div>

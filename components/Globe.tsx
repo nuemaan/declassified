@@ -7,6 +7,7 @@ import { pairsAbove } from "@/lib/similarity";
 import { useArchive } from "@/lib/store";
 import { strangenessBucket } from "@/lib/strangeness";
 import type { Sighting } from "@/lib/types";
+import { loadUserSubmissions } from "@/lib/userSightings";
 
 interface MarkerPoint {
   id: string;
@@ -70,12 +71,34 @@ export default function Globe({ sightings }: GlobeProps) {
 
   // Timeline filter — markers whose date is past the playhead are hidden.
   const revealedThrough = useArchive((s) => s.revealedThrough);
+  const agencyFilter = useArchive((s) => s.agencyFilter);
+  const typeFilter = useArchive((s) => s.typeFilter);
+  const bucketFilter = useArchive((s) => s.bucketFilter);
 
-  // Markers — recomputed when the dataset or timeline playhead changes.
-  const markers = useMemo(
-    () => sightings.filter((s) => s.date <= revealedThrough).map(toMarker),
-    [sightings, revealedThrough]
+  // Merge static + user-submitted sightings, refreshed whenever submissions change.
+  const [userSubmissions, setUserSubmissions] = useState<Sighting[]>([]);
+  useEffect(() => {
+    setUserSubmissions(loadUserSubmissions());
+    const onChange = () => setUserSubmissions(loadUserSubmissions());
+    window.addEventListener("declassified:user-sightings-changed", onChange);
+    return () => window.removeEventListener("declassified:user-sightings-changed", onChange);
+  }, []);
+  const mergedSightings = useMemo(
+    () => [...sightings, ...userSubmissions],
+    [sightings, userSubmissions]
   );
+
+  // Markers — recomputed when the dataset, timeline playhead, or filters change.
+  const markers = useMemo(() => {
+    return mergedSightings
+      .filter((s) => s.date <= revealedThrough)
+      .filter((s) => (agencyFilter === null ? true : agencyFilter.has(s.agency)))
+      .filter((s) => (typeFilter === null ? true : typeFilter.has(s.type)))
+      .filter((s) =>
+        bucketFilter === null ? true : bucketFilter.has(strangenessBucket(s.strangenessScore))
+      )
+      .map(toMarker);
+  }, [mergedSightings, revealedThrough, agencyFilter, typeFilter, bucketFilter]);
 
   // Connections — top arcs between visible sightings whose similarity is above
   // a threshold. Recomputed when the visible set changes (timeline playhead)
@@ -83,9 +106,7 @@ export default function Globe({ sightings }: GlobeProps) {
   const connectionsEnabled = useArchive((s) => s.connectionsEnabled);
   const arcs = useMemo(() => {
     if (!connectionsEnabled) return [];
-    const visibleIds = new Set(
-      sightings.filter((s) => s.date <= revealedThrough).map((s) => s.id)
-    );
+    const visibleIds = new Set(markers.map((m) => m.id));
     const byId = new Map(sightings.map((s) => [s.id, s] as const));
     const pairs = pairsAbove(0.22)
       .filter((p) => visibleIds.has(p.from) && visibleIds.has(p.to))
@@ -105,7 +126,7 @@ export default function Globe({ sightings }: GlobeProps) {
         score: p.score,
       };
     });
-  }, [connectionsEnabled, sightings, revealedThrough]);
+  }, [connectionsEnabled, markers, sightings]);
 
   // Track container size for the canvas.
   useEffect(() => {
@@ -162,13 +183,13 @@ export default function Globe({ sightings }: GlobeProps) {
   // Recenter on selected sighting (smooth fly-to).
   useEffect(() => {
     if (!selectedId) return;
-    const s = sightings.find((x) => x.id === selectedId);
+    const s = mergedSightings.find((x) => x.id === selectedId);
     if (!s || !globeRef.current) return;
     globeRef.current.pointOfView(
       { lat: s.location.lat, lng: s.location.lng, altitude: 1.6 },
       1100
     );
-  }, [selectedId, sightings]);
+  }, [selectedId, mergedSightings]);
 
   return (
     <div
@@ -200,13 +221,17 @@ export default function Globe({ sightings }: GlobeProps) {
           pointResolution={6}
           pointLabel={(p: object) => {
             const m = p as MarkerPoint;
-            const s = sightings.find((x) => x.id === m.id);
+            const s = mergedSightings.find((x) => x.id === m.id);
             if (!s) return "";
             const region = s.location.region ?? s.location.country;
+            const userTag = s.userSubmitted
+              ? `<div style="color:#FFA500;font-size:9px;text-transform:uppercase;letter-spacing:0.18em;margin-top:2px;">[USER-SUBMITTED]</div>`
+              : "";
             return `<div style="font-family:ui-monospace,monospace;background:#000;border:1px solid ${m.color};padding:6px 8px;color:#F0EDE5;font-size:11px;letter-spacing:0.04em;">
               <div style="color:${m.color};font-size:9px;text-transform:uppercase;letter-spacing:0.18em;">${s.id}</div>
               <div style="margin-top:2px;">${region}</div>
               <div style="color:#8C887E;font-size:9px;margin-top:2px;">${s.date} · ${s.agency} · ${s.type}</div>
+              ${userTag}
             </div>`;
           }}
           onPointClick={(p: object) => {
