@@ -5,6 +5,7 @@ import { ClassificationStamp } from "@/components/ClassificationStamp";
 import { Dossier } from "@/components/Dossier";
 import { FeaturedDossierButton } from "@/components/FeaturedDossierButton";
 import { GlobeMount } from "@/components/GlobeMount";
+import { LocalAnomalyButton } from "@/components/LocalAnomaly";
 import { Timeline } from "@/components/Timeline";
 import { manifest, sightings } from "@/lib/data";
 import { strangenessBucket } from "@/lib/strangeness";
@@ -47,6 +48,7 @@ export default function HomePage() {
           <BucketChip count={buckets.redalert} tone="redalert" />
         </div>
         {featured ? <FeaturedDossierButton id={featured.id} label={featured.id} /> : null}
+        <LocalAnomalyButton />
       </div>
 
       {/* Dossier panel — slides in from the right when a sighting is selected */}
