@@ -23,14 +23,17 @@
     "zustand": "5.0.2",
     "howler": "2.2.4",
     "react-globe.gl": "2.37.1",
-    "three": "0.170.0"
+    "three": "0.184.0"
+  },
+  "overrides": {
+    "three": "0.184.0"
   },
   "devDependencies": {
     "@types/node": "22.10.1",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
     "@types/howler": "2.2.12",
-    "@types/three": "0.170.0",
+    "@types/three": "0.184.0",
     "autoprefixer": "10.4.20",
     "postcss": "8.4.49",
     "tailwindcss": "3.4.15",
