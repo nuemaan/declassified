@@ -1,0 +1,3586 @@
+[
+  {
+    "id": "DC-1947-0001",
+    "date": "1947-01-14",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Aurora, TX",
+      "lat": 33.230674559599166,
+      "lng": -97.42610635793172,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Eleanor Lindgren",
+      "Eleanor Volkov",
+      "Solange Tanaka"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.6641016719629989,
+    "durationMinutes": 52,
+    "sourceFile": "mock/DC-1947-0048.txt"
+  },
+  {
+    "id": "DC-1947-0002",
+    "date": "1947-05-04",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Japan",
+      "region": "Off Kyushu",
+      "lat": 32.44124743626453,
+      "lng": 129.92692219545134,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Anya Okafor"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.649134452175349,
+    "durationMinutes": 33,
+    "sourceFile": "mock/DC-1947-0022.txt"
+  },
+  {
+    "id": "DC-1947-0003",
+    "date": "1947-06-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Mount Rainier, WA",
+      "lat": 46.8523,
+      "lng": -121.7603,
+      "precision": "exact"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "Private pilot Kenneth Arnold reported nine bright disc-shaped objects skipping in formation near Mount Rainier. He estimated their speed at over 1,200 mph by clocking transit between two peaks. The encounter coined the term 'flying saucer'.",
+    "witnesses": [
+      "Kenneth Arnold"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.5700000000000001,
+    "durationMinutes": 3,
+    "sourceFile": "mock/DC-1947-0001.txt",
+    "hook": "The original 'flying saucer' report."
+  },
+  {
+    "id": "DC-1947-0004",
+    "date": "1947-07-02",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "France",
+      "region": "Trans-en-Provence",
+      "lat": 43.209792824042964,
+      "lng": 6.24149989894852,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "strangenessScore": 4,
+    "confidence": 0.6247279807692394,
+    "durationMinutes": 7,
+    "sourceFile": "mock/DC-1947-0077.txt"
+  },
+  {
+    "id": "DC-1947-0005",
+    "date": "1947-07-08",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Roswell, NM",
+      "lat": 33.394,
+      "lng": -104.523,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "Rancher W. W. Brazel found unusual debris on a sheep pasture. Roswell Army Air Field initially announced recovery of a 'flying disc' before retracting the statement the next day, citing a weather balloon.",
+    "witnesses": [
+      "W. W. Brazel",
+      "Maj. Jesse Marcel"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.6900000000000001,
+    "durationMinutes": 0,
+    "sourceFile": "mock/DC-1947-0002.txt",
+    "hook": "The press release that the Army took back."
+  },
+  {
+    "id": "DC-1947-0006",
+    "date": "1947-11-01",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Japan",
+      "region": "Off Kyushu",
+      "lat": 32.669758058246224,
+      "lng": 129.77120665502736,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "witnesses": [
+      "Idris Park",
+      "Yuki Tanaka",
+      "Yuki Lindgren"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.32930602675769477,
+    "durationMinutes": 21,
+    "sourceFile": "mock/DC-1947-0131.txt"
+  },
+  {
+    "id": "DC-1949-0007",
+    "date": "1949-03-18",
+    "dateConfidence": "month",
+    "location": {
+      "country": "France",
+      "region": "Trans-en-Provence",
+      "lat": 43.50425422559492,
+      "lng": 6.476447747547924,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "radar",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "strangenessScore": 6,
+    "confidence": 0.3837114320602268,
+    "durationMinutes": 54,
+    "sourceFile": "mock/DC-1949-0124.txt"
+  },
+  {
+    "id": "DC-1949-0008",
+    "date": "1949-03-27",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Chile",
+      "region": "Atacama Desert",
+      "lat": -24.30747555391863,
+      "lng": -69.53571959384718,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "radar",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Marcus Rashid"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.7287266425089911,
+    "durationMinutes": 36,
+    "sourceFile": "mock/DC-1949-0151.txt"
+  },
+  {
+    "id": "DC-1949-0009",
+    "date": "1949-10-11",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.883969933984055,
+      "lng": -95.25236204831005,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "radar",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "strangenessScore": 6,
+    "confidence": 0.6730596737004817,
+    "durationMinutes": 37,
+    "sourceFile": "mock/DC-1949-0071.txt"
+  },
+  {
+    "id": "DC-1950-0010",
+    "date": "1950-04-09",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Off Hawaii",
+      "lat": 21.366265429649502,
+      "lng": -158.24164847275242,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "radar",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "strangenessScore": 4,
+    "confidence": 0.5412441594060511,
+    "durationMinutes": 29,
+    "sourceFile": "mock/DC-1950-0144.txt"
+  },
+  {
+    "id": "DC-1950-0011",
+    "date": "1950-05-10",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Greenland",
+      "region": "Thule airspace",
+      "lat": 76.82510912355632,
+      "lng": -68.91072943479456,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Theo Tanaka",
+      "Eleanor Lindgren",
+      "Yuki Tanaka"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.706950710574165,
+    "durationMinutes": 50,
+    "sourceFile": "mock/DC-1950-0129.txt"
+  },
+  {
+    "id": "DC-1950-0012",
+    "date": "1950-05-11",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "India",
+      "region": "Ladakh",
+      "lat": 34.23177401427403,
+      "lng": 77.86350808002092,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Lila Costa",
+      "Mateo Carter"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.6964292261516676,
+    "durationMinutes": 19,
+    "sourceFile": "mock/DC-1950-0157.txt"
+  },
+  {
+    "id": "DC-1950-0013",
+    "date": "1950-12-12",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Indonesia",
+      "region": "Off Bali",
+      "lat": -8.52200493705459,
+      "lng": 115.33066257149912,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "radar",
+    "description": "A formation of three orange lights in a triangle was observed hovering silently. The lights reportedly executed an instantaneous 90-degree maneuver before disappearing.",
+    "witnesses": [
+      "Dale Ahmed",
+      "Dale Reyes"
+    ],
+    "strangenessScore": 8,
+    "confidence": 0.7259690132457763,
+    "durationMinutes": 30,
+    "sourceFile": "mock/DC-1950-0047.txt"
+  },
+  {
+    "id": "DC-1951-0014",
+    "date": "1951-05-26",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Egypt",
+      "region": "Western Desert",
+      "lat": 26.73966456851922,
+      "lng": 27.918122046766804,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "visual",
+    "description": "A formation of three orange lights in a triangle was observed hovering silently. The lights reportedly executed an instantaneous 90-degree maneuver before disappearing.",
+    "strangenessScore": 5,
+    "confidence": 0.6814342356054113,
+    "durationMinutes": 12,
+    "sourceFile": "mock/DC-1951-0153.txt"
+  },
+  {
+    "id": "DC-1952-0015",
+    "date": "1952-05-21",
+    "dateConfidence": "year",
+    "location": {
+      "country": "Russia",
+      "region": "Petrozavodsk",
+      "lat": 61.97412409014776,
+      "lng": 34.33324424470365,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Marcus Reyes",
+      "Mateo Reyes"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.7096060708398,
+    "durationMinutes": 34,
+    "sourceFile": "mock/DC-1952-0026.txt"
+  },
+  {
+    "id": "DC-1952-0016",
+    "date": "1952-07-19",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Washington, D.C.",
+      "lat": 38.8512,
+      "lng": -77.0402,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Multiple radar stations and airline pilots tracked unknown targets over restricted airspace above the U.S. Capitol on two consecutive weekends. F-94 interceptors scrambled but could not close. The event led to the Robertson Panel.",
+    "witnesses": [
+      "ATC Washington National",
+      "Capt. S. Pierman"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.8400000000000001,
+    "durationMinutes": 240,
+    "sourceFile": "mock/DC-1952-0003.txt",
+    "hook": "Radar contacts directly over the Capitol."
+  },
+  {
+    "id": "DC-1952-0017",
+    "date": "1952-11-26",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Turkey",
+      "region": "Kumburgaz",
+      "lat": 41.22961793553419,
+      "lng": 28.405429593049362,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "infrared",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Solange Park"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.43785916671622543,
+    "durationMinutes": 29,
+    "sourceFile": "mock/DC-1952-0031.txt"
+  },
+  {
+    "id": "DC-1953-0018",
+    "date": "1953-01-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Sweden",
+      "region": "Gulf of Bothnia",
+      "lat": 63.66681376989,
+      "lng": 19.272039336757736,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Anya Costa",
+      "Lila Tanaka"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.4150492556625977,
+    "durationMinutes": 1,
+    "sourceFile": "mock/DC-1953-0076.txt"
+  },
+  {
+    "id": "DC-1953-0019",
+    "date": "1953-06-15",
+    "dateConfidence": "year",
+    "location": {
+      "country": "United States",
+      "region": "Aurora, TX",
+      "lat": 32.92698066590764,
+      "lng": -97.60203389882444,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Lila Okafor",
+      "Dale Costa"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.5431697178399191,
+    "durationMinutes": 31,
+    "sourceFile": "mock/DC-1953-0154.txt"
+  },
+  {
+    "id": "DC-1953-0020",
+    "date": "1953-11-22",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Mexico",
+      "region": "Mexico City",
+      "lat": 19.55189238671437,
+      "lng": -98.8552628826879,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "infrared",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Solange Okafor"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.6711419313913212,
+    "durationMinutes": 48,
+    "sourceFile": "mock/DC-1953-0112.txt"
+  },
+  {
+    "id": "DC-1954-0021",
+    "date": "1954-03-11",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Spain",
+      "region": "Canary Islands",
+      "lat": 28.46846126339249,
+      "lng": -16.750030154854432,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "photographic",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Anya Rashid",
+      "Solange Costa",
+      "Marcus Okafor"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.4916613734792918,
+    "durationMinutes": 4,
+    "sourceFile": "mock/DC-1954-0150.txt"
+  },
+  {
+    "id": "DC-1955-0022",
+    "date": "1955-05-20",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.53844445029013,
+      "lng": -95.3158780736018,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "multi-sensor",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Mateo Volkov",
+      "Lila Okafor",
+      "Lila Park"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.77900667891372,
+    "durationMinutes": 1,
+    "sourceFile": "mock/DC-1955-0155.txt"
+  },
+  {
+    "id": "DC-1955-0023",
+    "date": "1955-06-04",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Skinwalker Ranch, UT",
+      "lat": 40.460689792575685,
+      "lng": -109.82995773413964,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Lila Tanaka",
+      "Theo Costa"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.6164251785492525,
+    "durationMinutes": 16,
+    "sourceFile": "mock/DC-1955-0135.txt"
+  },
+  {
+    "id": "DC-1955-0024",
+    "date": "1955-07-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Off Hawaii",
+      "lat": 21.006530518177897,
+      "lng": -158.239294051053,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Dale Carter",
+      "Anya Ahmed",
+      "Idris Tanaka"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.6296713631134481,
+    "durationMinutes": 51,
+    "sourceFile": "mock/DC-1955-0060.txt"
+  },
+  {
+    "id": "DC-1955-0025",
+    "date": "1955-09-09",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "South Africa",
+      "region": "Kruger NP",
+      "lat": -23.96927131643705,
+      "lng": 31.631852923680842,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "radar",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Eleanor Ahmed",
+      "Mateo Volkov"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.7849031807389111,
+    "durationMinutes": 23,
+    "sourceFile": "mock/DC-1955-0057.txt"
+  },
+  {
+    "id": "DC-1955-0026",
+    "date": "1955-11-08",
+    "dateConfidence": "year",
+    "location": {
+      "country": "India",
+      "region": "Ladakh",
+      "lat": 34.403428735018146,
+      "lng": 77.4205021519497,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Lila Volkov"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.4061567896977067,
+    "durationMinutes": 47,
+    "sourceFile": "mock/DC-1955-0130.txt"
+  },
+  {
+    "id": "DC-1956-0027",
+    "date": "1956-10-15",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Indonesia",
+      "region": "Off Bali",
+      "lat": -8.69928527814336,
+      "lng": 115.76997624593787,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "visual",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Marcus Ahmed",
+      "Lila Costa",
+      "Theo Reyes"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.7887787187471986,
+    "durationMinutes": 42,
+    "sourceFile": "mock/DC-1956-0137.txt"
+  },
+  {
+    "id": "DC-1957-0028",
+    "date": "1957-02-21",
+    "dateConfidence": "year",
+    "location": {
+      "country": "Greenland",
+      "region": "Thule airspace",
+      "lat": 76.30811202179305,
+      "lng": -68.5041923026897,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "strangenessScore": 4,
+    "confidence": 0.6539245827123523,
+    "durationMinutes": 27,
+    "sourceFile": "mock/DC-1957-0059.txt"
+  },
+  {
+    "id": "DC-1957-0029",
+    "date": "1957-04-12",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Turkey",
+      "region": "Kumburgaz",
+      "lat": 40.92993243334219,
+      "lng": 27.992495788069814,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "witnesses": [
+      "Solange Volkov"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.4696229212684557,
+    "durationMinutes": 53,
+    "sourceFile": "mock/DC-1957-0162.txt"
+  },
+  {
+    "id": "DC-1957-0030",
+    "date": "1957-05-09",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Levelland, TX",
+      "lat": 33.620947955146065,
+      "lng": -102.23550167355873,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "strangenessScore": 6,
+    "confidence": 0.5173505543032662,
+    "durationMinutes": 23,
+    "sourceFile": "mock/DC-1957-0142.txt"
+  },
+  {
+    "id": "DC-1957-0031",
+    "date": "1957-05-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.59693717572578,
+      "lng": -95.49159850688726,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "radar",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "witnesses": [
+      "Theo Costa",
+      "Anya Costa"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.4879708549240604,
+    "durationMinutes": 51,
+    "sourceFile": "mock/DC-1957-0101.txt"
+  },
+  {
+    "id": "DC-1958-0032",
+    "date": "1958-07-23",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.21883844346739,
+      "lng": 174.7525743787177,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "multi-sensor",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Yuki Okafor"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.3664858700474724,
+    "durationMinutes": 20,
+    "sourceFile": "mock/DC-1958-0125.txt"
+  },
+  {
+    "id": "DC-1958-0033",
+    "date": "1958-08-22",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Off Hawaii",
+      "lat": 21.454535942338406,
+      "lng": -158.23877832400612,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "radar",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "strangenessScore": 5,
+    "confidence": 0.5270161990309135,
+    "durationMinutes": 57,
+    "sourceFile": "mock/DC-1958-0054.txt"
+  },
+  {
+    "id": "DC-1959-0034",
+    "date": "1959-02-06",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Pascagoula, MS",
+      "lat": 30.41995513912663,
+      "lng": -88.45857741895728,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "strangenessScore": 2,
+    "confidence": 0.5920099657494575,
+    "durationMinutes": 43,
+    "sourceFile": "mock/DC-1959-0084.txt"
+  },
+  {
+    "id": "DC-1959-0035",
+    "date": "1959-05-07",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.79424345083535,
+      "lng": 174.83858363148755,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Marcus Rashid",
+      "Lila Okafor",
+      "Dale Okafor"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.7801180044887588,
+    "durationMinutes": 27,
+    "sourceFile": "mock/DC-1959-0072.txt"
+  },
+  {
+    "id": "DC-1959-0036",
+    "date": "1959-06-22",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Turkey",
+      "region": "Kumburgaz",
+      "lat": 40.80944569010622,
+      "lng": 27.96973503441028,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "radar",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Idris Reyes",
+      "Dale Reyes",
+      "Solange Ahmed"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.6199979263590649,
+    "durationMinutes": 18,
+    "sourceFile": "mock/DC-1959-0042.txt"
+  },
+  {
+    "id": "DC-1959-0037",
+    "date": "1959-09-08",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "China",
+      "region": "Hangzhou",
+      "lat": 30.100456756687166,
+      "lng": 120.43634705543742,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Idris Costa",
+      "Mateo Volkov"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.3442943602101877,
+    "durationMinutes": 27,
+    "sourceFile": "mock/DC-1959-0141.txt"
+  },
+  {
+    "id": "DC-1959-0038",
+    "date": "1959-12-12",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Chile",
+      "region": "Atacama Desert",
+      "lat": -24.581153281684966,
+      "lng": -69.3346815417055,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "photographic",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Yuki Volkov"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.36459010764956473,
+    "durationMinutes": 39,
+    "sourceFile": "mock/DC-1959-0083.txt"
+  },
+  {
+    "id": "DC-1960-0039",
+    "date": "1960-01-13",
+    "dateConfidence": "year",
+    "location": {
+      "country": "United States",
+      "region": "Off Hawaii",
+      "lat": 21.038496523769574,
+      "lng": -158.2988309203647,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Theo Tanaka",
+      "Theo Ahmed",
+      "Theo Tanaka"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.555695290514268,
+    "durationMinutes": 48,
+    "sourceFile": "mock/DC-1960-0126.txt"
+  },
+  {
+    "id": "DC-1961-0040",
+    "date": "1961-08-20",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Pascagoula, MS",
+      "lat": 30.2373151213713,
+      "lng": -88.44245288444348,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Mateo Lindgren"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.6500214072410018,
+    "durationMinutes": 59,
+    "sourceFile": "mock/DC-1961-0113.txt"
+  },
+  {
+    "id": "DC-1961-0041",
+    "date": "1961-08-26",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Mexico",
+      "region": "Mexico City",
+      "lat": 19.477553383598476,
+      "lng": -98.92535023010038,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "radar",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Theo Lindgren",
+      "Eleanor Park",
+      "Solange Carter"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.550556388986297,
+    "durationMinutes": 37,
+    "sourceFile": "mock/DC-1961-0087.txt"
+  },
+  {
+    "id": "DC-1961-0042",
+    "date": "1961-12-21",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Turkey",
+      "region": "Kumburgaz",
+      "lat": 40.96623547004871,
+      "lng": 28.128345761722326,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Eleanor Tanaka"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.3854037955868989,
+    "durationMinutes": 9,
+    "sourceFile": "mock/DC-1961-0063.txt"
+  },
+  {
+    "id": "DC-1963-0043",
+    "date": "1963-07-16",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Aurora, TX",
+      "lat": 32.979971658321475,
+      "lng": -97.53134654824025,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "photographic",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "strangenessScore": 5,
+    "confidence": 0.7079739098669962,
+    "durationMinutes": 38,
+    "sourceFile": "mock/DC-1963-0161.txt"
+  },
+  {
+    "id": "DC-1965-0044",
+    "date": "1965-01-06",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Argentina",
+      "region": "Bariloche",
+      "lat": -41.047563783083106,
+      "lng": -71.52373079572543,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "strangenessScore": 2,
+    "confidence": 0.6988969433121384,
+    "durationMinutes": 32,
+    "sourceFile": "mock/DC-1965-0158.txt"
+  },
+  {
+    "id": "DC-1965-0045",
+    "date": "1965-09-03",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Exeter, NH",
+      "lat": 42.9814,
+      "lng": -70.9478,
+      "precision": "exact"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "A young hitchhiker and two responding patrolmen observed a large object with a row of pulsing red lights at low altitude over a field. The case received extensive Project Blue Book attention and remains classified 'unknown'.",
+    "witnesses": [
+      "Officer Eugene Bertrand",
+      "Officer David Hunt"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.64,
+    "durationMinutes": 15,
+    "sourceFile": "mock/DC-1965-0013.txt",
+    "hook": "Two police officers signed the original report."
+  },
+  {
+    "id": "DC-1966-0046",
+    "date": "1966-03-19",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Mexico",
+      "region": "Mexico City",
+      "lat": 19.155811387544873,
+      "lng": -99.13779384019487,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "infrared",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "strangenessScore": 4,
+    "confidence": 0.430871755303815,
+    "durationMinutes": 45,
+    "sourceFile": "mock/DC-1966-0043.txt"
+  },
+  {
+    "id": "DC-1968-0047",
+    "date": "1968-01-22",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Argentina",
+      "region": "Bariloche",
+      "lat": -40.9894409450274,
+      "lng": -71.48053315625265,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Theo Rashid"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.37825631077867,
+    "durationMinutes": 42,
+    "sourceFile": "mock/DC-1968-0040.txt"
+  },
+  {
+    "id": "DC-1969-0048",
+    "date": "1969-04-14",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.5104662574362,
+      "lng": 175.00229339026845,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "visual",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "strangenessScore": 3,
+    "confidence": 0.41256242799572646,
+    "durationMinutes": 40,
+    "sourceFile": "mock/DC-1969-0052.txt"
+  },
+  {
+    "id": "DC-1971-0049",
+    "date": "1971-02-03",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Greenland",
+      "region": "Thule airspace",
+      "lat": 76.62136967636309,
+      "lng": -68.7495873217348,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "witnesses": [
+      "Idris Lindgren",
+      "Mateo Volkov"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.5758117396151647,
+    "durationMinutes": 34,
+    "sourceFile": "mock/DC-1971-0066.txt"
+  },
+  {
+    "id": "DC-1971-0050",
+    "date": "1971-02-23",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Sweden",
+      "region": "Gulf of Bothnia",
+      "lat": 63.716519070090726,
+      "lng": 19.622286093933507,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "photographic",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Lila Reyes",
+      "Anya Park"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.3242957909358665,
+    "durationMinutes": 3,
+    "sourceFile": "mock/DC-1971-0127.txt"
+  },
+  {
+    "id": "DC-1972-0051",
+    "date": "1972-10-08",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.74750545562916,
+      "lng": -95.4550547549136,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "multi-sensor",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Idris Tanaka",
+      "Idris Rashid"
+    ],
+    "strangenessScore": 8,
+    "confidence": 0.3856585871661082,
+    "durationMinutes": 15,
+    "sourceFile": "mock/DC-1972-0053.txt"
+  },
+  {
+    "id": "DC-1973-0052",
+    "date": "1973-07-18",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Indonesia",
+      "region": "Off Bali",
+      "lat": -8.796360171819106,
+      "lng": 115.78989509590902,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "visual",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Solange Park",
+      "Lila Rashid",
+      "Solange Reyes"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.5556973949540407,
+    "durationMinutes": 32,
+    "sourceFile": "mock/DC-1973-0044.txt"
+  },
+  {
+    "id": "DC-1973-0053",
+    "date": "1973-08-16",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Mexico",
+      "region": "Mexico City",
+      "lat": 19.217695104249195,
+      "lng": -99.14259044798725,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "strangenessScore": 4,
+    "confidence": 0.6798244578065351,
+    "durationMinutes": 59,
+    "sourceFile": "mock/DC-1973-0105.txt"
+  },
+  {
+    "id": "DC-1973-0054",
+    "date": "1973-08-17",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.825428968879585,
+      "lng": -95.04627114186138,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "strangenessScore": 5,
+    "confidence": 0.7332539713941515,
+    "durationMinutes": 21,
+    "sourceFile": "mock/DC-1973-0067.txt"
+  },
+  {
+    "id": "DC-1973-0055",
+    "date": "1973-08-27",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Skinwalker Ranch, UT",
+      "lat": 40.517091134962065,
+      "lng": -109.66210526455939,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "infrared",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Yuki Okafor",
+      "Yuki Park"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.45105273632798343,
+    "durationMinutes": 39,
+    "sourceFile": "mock/DC-1973-0116.txt"
+  },
+  {
+    "id": "DC-1974-0056",
+    "date": "1974-06-20",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.88397156803608,
+      "lng": -95.19529153822064,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "witnesses": [
+      "Mateo Reyes",
+      "Marcus Rashid",
+      "Anya Park"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.3569030741462484,
+    "durationMinutes": 59,
+    "sourceFile": "mock/DC-1974-0152.txt"
+  },
+  {
+    "id": "DC-1975-0057",
+    "date": "1975-06-06",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Skinwalker Ranch, UT",
+      "lat": 40.1022087741442,
+      "lng": -109.96803227565064,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Dale Carter"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.788754898076877,
+    "durationMinutes": 12,
+    "sourceFile": "mock/DC-1975-0061.txt"
+  },
+  {
+    "id": "DC-1975-0058",
+    "date": "1975-10-28",
+    "dateConfidence": "month",
+    "location": {
+      "country": "India",
+      "region": "Ladakh",
+      "lat": 34.276105643522364,
+      "lng": 77.79170710950196,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "radar",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Theo Carter",
+      "Eleanor Park",
+      "Mateo Park"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.32467075968161224,
+    "durationMinutes": 31,
+    "sourceFile": "mock/DC-1975-0093.txt"
+  },
+  {
+    "id": "DC-1976-0059",
+    "date": "1976-07-28",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Japan",
+      "region": "Off Kyushu",
+      "lat": 32.65277602430433,
+      "lng": 130.18545543993824,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "infrared",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Marcus Park",
+      "Marcus Lindgren",
+      "Idris Park"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.3117437900044024,
+    "durationMinutes": 40,
+    "sourceFile": "mock/DC-1976-0115.txt"
+  },
+  {
+    "id": "DC-1976-0060",
+    "date": "1976-09-19",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Iran",
+      "region": "Tehran",
+      "lat": 35.6892,
+      "lng": 51.389,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Imperial Iranian Air Force F-4 Phantoms vectored to an unknown returned with reports of weapons and instrument failure as they closed range. The DIA memo characterized the case as a classic, with multiple sensor confirmation.",
+    "witnesses": [
+      "Lt. Jafari",
+      "Lt. Col. Yousefi"
+    ],
+    "strangenessScore": 8,
+    "confidence": 0.8900000000000001,
+    "durationMinutes": 90,
+    "sourceFile": "mock/DC-1976-0004.txt",
+    "hook": "Two F-4 Phantoms lost weapons systems on intercept."
+  },
+  {
+    "id": "DC-1977-0061",
+    "date": "1977-02-16",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Mexico",
+      "region": "Mexico City",
+      "lat": 19.58423151328452,
+      "lng": -99.00895363903307,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "strangenessScore": 3,
+    "confidence": 0.3977994910208508,
+    "durationMinutes": 2,
+    "sourceFile": "mock/DC-1977-0035.txt"
+  },
+  {
+    "id": "DC-1977-0062",
+    "date": "1977-09-10",
+    "dateConfidence": "year",
+    "location": {
+      "country": "United States",
+      "region": "Off Hawaii",
+      "lat": 21.06039066645317,
+      "lng": -157.84157260740176,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "visual",
+    "description": "A formation of three orange lights in a triangle was observed hovering silently. The lights reportedly executed an instantaneous 90-degree maneuver before disappearing.",
+    "witnesses": [
+      "Yuki Reyes",
+      "Mateo Tanaka"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.6409544997848571,
+    "durationMinutes": 55,
+    "sourceFile": "mock/DC-1977-0021.txt"
+  },
+  {
+    "id": "DC-1979-0063",
+    "date": "1979-04-15",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Spain",
+      "region": "Canary Islands",
+      "lat": 28.07757133220173,
+      "lng": -16.75822149699405,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "witnesses": [
+      "Dale Tanaka",
+      "Idris Volkov"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.7084963772911579,
+    "durationMinutes": 10,
+    "sourceFile": "mock/DC-1979-0138.txt"
+  },
+  {
+    "id": "DC-1979-0064",
+    "date": "1979-05-11",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Sweden",
+      "region": "Gulf of Bothnia",
+      "lat": 63.38037074515596,
+      "lng": 19.715470279287548,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "radar",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "strangenessScore": 4,
+    "confidence": 0.6039006954059005,
+    "durationMinutes": 16,
+    "sourceFile": "mock/DC-1979-0033.txt"
+  },
+  {
+    "id": "DC-1980-0065",
+    "date": "1980-11-09",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Greenland",
+      "region": "Thule airspace",
+      "lat": 76.7456079890266,
+      "lng": -68.56914798201694,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "photographic",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Theo Carter",
+      "Solange Costa",
+      "Yuki Tanaka"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.517872747569345,
+    "durationMinutes": 20,
+    "sourceFile": "mock/DC-1980-0045.txt"
+  },
+  {
+    "id": "DC-1980-0066",
+    "date": "1980-12-26",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United Kingdom",
+      "region": "Rendlesham Forest, Suffolk",
+      "lat": 52.0894,
+      "lng": 1.4514,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "USAF personnel from RAF Bentwaters investigated lights in Rendlesham Forest over three nights. Deputy Base Commander Lt. Col. Charles Halt audio-recorded the second-night encounter and described a triangular metallic object in his official memo.",
+    "witnesses": [
+      "Lt. Col. Charles Halt",
+      "Sgt. Jim Penniston"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.6900000000000001,
+    "durationMinutes": 75,
+    "sourceFile": "mock/DC-1980-0005.txt",
+    "hook": "The Halt memo: 'unexplained lights' on an official letterhead."
+  },
+  {
+    "id": "DC-1981-0067",
+    "date": "1981-06-12",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Norway",
+      "region": "Hessdalen Valley",
+      "lat": 62.7867,
+      "lng": 11.1881,
+      "precision": "exact"
+    },
+    "agency": "Other",
+    "type": "photographic",
+    "description": "Persistent unexplained light phenomena have been documented in the Hessdalen Valley since the early 1980s. The Hessdalen automatic monitoring project continues to record the lights with cameras and magnetometers.",
+    "witnesses": [
+      "Hessdalen monitoring project"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.62,
+    "durationMinutes": 30,
+    "sourceFile": "mock/DC-1981-0015.txt",
+    "hook": "Cameras still watch the valley."
+  },
+  {
+    "id": "DC-1981-0068",
+    "date": "1981-11-04",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Off Hawaii",
+      "lat": 21.51734574213624,
+      "lng": -157.7534619575832,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "strangenessScore": 4,
+    "confidence": 0.6692046810174361,
+    "durationMinutes": 20,
+    "sourceFile": "mock/DC-1981-0070.txt"
+  },
+  {
+    "id": "DC-1981-0069",
+    "date": "1981-11-18",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Peru",
+      "region": "Marcahuasi",
+      "lat": -11.562285644411297,
+      "lng": -76.47553106067777,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Theo Rashid"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.3401012555230409,
+    "durationMinutes": 59,
+    "sourceFile": "mock/DC-1981-0094.txt"
+  },
+  {
+    "id": "DC-1982-0070",
+    "date": "1982-06-28",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "South Africa",
+      "region": "Kruger NP",
+      "lat": -23.86236379347928,
+      "lng": 31.31934056237601,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "visual",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "strangenessScore": 2,
+    "confidence": 0.6637651625322178,
+    "durationMinutes": 47,
+    "sourceFile": "mock/DC-1982-0107.txt"
+  },
+  {
+    "id": "DC-1983-0071",
+    "date": "1983-07-08",
+    "dateConfidence": "month",
+    "location": {
+      "country": "India",
+      "region": "Ladakh",
+      "lat": 33.899827859403935,
+      "lng": 77.71083935916461,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "infrared",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Lila Lindgren"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.6845966405933723,
+    "durationMinutes": 30,
+    "sourceFile": "mock/DC-1983-0139.txt"
+  },
+  {
+    "id": "DC-1983-0072",
+    "date": "1983-08-14",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Russia",
+      "region": "Petrozavodsk",
+      "lat": 61.82770435736291,
+      "lng": 34.483152536764365,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "radar",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Idris Carter",
+      "Theo Okafor"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.588473763386719,
+    "durationMinutes": 8,
+    "sourceFile": "mock/DC-1983-0024.txt"
+  },
+  {
+    "id": "DC-1984-0073",
+    "date": "1984-04-18",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.78390428351909,
+      "lng": -95.46207988919765,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "visual",
+    "description": "A formation of three orange lights in a triangle was observed hovering silently. The lights reportedly executed an instantaneous 90-degree maneuver before disappearing.",
+    "witnesses": [
+      "Dale Rashid",
+      "Anya Volkov"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.3400978438556194,
+    "durationMinutes": 23,
+    "sourceFile": "mock/DC-1984-0046.txt"
+  },
+  {
+    "id": "DC-1984-0074",
+    "date": "1984-04-21",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Chile",
+      "region": "Atacama Desert",
+      "lat": -24.309202581364662,
+      "lng": -69.26734458450228,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "strangenessScore": 4,
+    "confidence": 0.5941171212587506,
+    "durationMinutes": 35,
+    "sourceFile": "mock/DC-1984-0132.txt"
+  },
+  {
+    "id": "DC-1984-0075",
+    "date": "1984-07-10",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Russia",
+      "region": "Petrozavodsk",
+      "lat": 61.696906954988464,
+      "lng": 34.49777740072049,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Anya Okafor"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.7754956434480846,
+    "durationMinutes": 20,
+    "sourceFile": "mock/DC-1984-0025.txt"
+  },
+  {
+    "id": "DC-1984-0076",
+    "date": "1984-07-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Hudson Valley, NY",
+      "lat": 41.5,
+      "lng": -73.95,
+      "precision": "exact"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "The Hudson Valley wave: thousands of independent witnesses reported a slow-moving boomerang-shaped formation of lights between 1982 and 1986. Local police logged the call volume in the hundreds on peak nights.",
+    "witnesses": [
+      "NY State Police dispatch"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.62,
+    "durationMinutes": 25,
+    "sourceFile": "mock/DC-1984-0014.txt",
+    "hook": "Years of calls. One persistent silhouette."
+  },
+  {
+    "id": "DC-1985-0077",
+    "date": "1985-03-26",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Indonesia",
+      "region": "Off Bali",
+      "lat": -8.710232138400897,
+      "lng": 115.36347828344442,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "A formation of three orange lights in a triangle was observed hovering silently. The lights reportedly executed an instantaneous 90-degree maneuver before disappearing.",
+    "strangenessScore": 5,
+    "confidence": 0.3785740748979151,
+    "durationMinutes": 19,
+    "sourceFile": "mock/DC-1985-0041.txt"
+  },
+  {
+    "id": "DC-1986-0078",
+    "date": "1986-01-26",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Levelland, TX",
+      "lat": 33.557664493301516,
+      "lng": -102.53505825188198,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "photographic",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "witnesses": [
+      "Lila Okafor",
+      "Anya Ahmed",
+      "Lila Tanaka"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.5952778548933566,
+    "durationMinutes": 1,
+    "sourceFile": "mock/DC-1986-0036.txt"
+  },
+  {
+    "id": "DC-1986-0079",
+    "date": "1986-04-09",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "France",
+      "region": "Trans-en-Provence",
+      "lat": 43.513626682106405,
+      "lng": 6.24032091441825,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "photographic",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "witnesses": [
+      "Idris Okafor",
+      "Marcus Reyes",
+      "Theo Tanaka"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.587512727198191,
+    "durationMinutes": 44,
+    "sourceFile": "mock/DC-1986-0068.txt"
+  },
+  {
+    "id": "DC-1986-0080",
+    "date": "1986-06-15",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Argentina",
+      "region": "Bariloche",
+      "lat": -40.975174238396804,
+      "lng": -71.5220544259876,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "witnesses": [
+      "Eleanor Volkov",
+      "Mateo Volkov"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.7324216054519639,
+    "durationMinutes": 15,
+    "sourceFile": "mock/DC-1986-0073.txt"
+  },
+  {
+    "id": "DC-1986-0081",
+    "date": "1986-11-14",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.62839840515517,
+      "lng": 175.15347253824584,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "strangenessScore": 2,
+    "confidence": 0.6619904648512602,
+    "durationMinutes": 27,
+    "sourceFile": "mock/DC-1986-0156.txt"
+  },
+  {
+    "id": "DC-1986-0082",
+    "date": "1986-11-17",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Anchorage, AK",
+      "lat": 61.2181,
+      "lng": -149.9003,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "radar",
+    "description": "JAL Cargo Flight 1628, en route over Alaska, reported sustained pacing by an enormous unidentified craft. Captain Kenju Terauchi described it as 'four times the size of a 747'. FAA released the radar tapes via FOIA.",
+    "witnesses": [
+      "Capt. Kenju Terauchi",
+      "FAA Anchorage ARTCC"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.74,
+    "durationMinutes": 50,
+    "sourceFile": "mock/DC-1986-0019.txt",
+    "hook": "'Four times the size of a 747.'"
+  },
+  {
+    "id": "DC-1987-0083",
+    "date": "1987-10-12",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Turkey",
+      "region": "Kumburgaz",
+      "lat": 40.836797106381134,
+      "lng": 28.330101976864412,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "infrared",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "witnesses": [
+      "Eleanor Okafor",
+      "Dale Volkov",
+      "Solange Reyes"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.3233543119393289,
+    "durationMinutes": 40,
+    "sourceFile": "mock/DC-1987-0051.txt"
+  },
+  {
+    "id": "DC-1988-0084",
+    "date": "1988-09-16",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Skinwalker Ranch, UT",
+      "lat": 40.46832660504468,
+      "lng": -109.61651235418208,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Mateo Reyes",
+      "Yuki Okafor"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.7181756277102977,
+    "durationMinutes": 1,
+    "sourceFile": "mock/DC-1988-0140.txt"
+  },
+  {
+    "id": "DC-1989-0085",
+    "date": "1989-01-23",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.46684074995779,
+      "lng": -95.37443767069914,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "visual",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Solange Ahmed",
+      "Solange Costa",
+      "Lila Ahmed"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.48579924129880964,
+    "durationMinutes": 14,
+    "sourceFile": "mock/DC-1989-0149.txt"
+  },
+  {
+    "id": "DC-1989-0086",
+    "date": "1989-02-10",
+    "dateConfidence": "month",
+    "location": {
+      "country": "China",
+      "region": "Hangzhou",
+      "lat": 30.15028641932495,
+      "lng": 120.39560721935928,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "multi-sensor",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "witnesses": [
+      "Eleanor Ahmed",
+      "Mateo Carter",
+      "Idris Carter"
+    ],
+    "strangenessScore": 8,
+    "confidence": 0.44555670495610683,
+    "durationMinutes": 38,
+    "sourceFile": "mock/DC-1989-0148.txt"
+  },
+  {
+    "id": "DC-1989-0087",
+    "date": "1989-11-29",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Belgium",
+      "region": "Eupen",
+      "lat": 50.6303,
+      "lng": 6.0345,
+      "precision": "exact"
+    },
+    "agency": "Other",
+    "type": "multi-sensor",
+    "description": "The Belgian wave: hundreds of witnesses including gendarmes observed silent, triangular craft with three corner lights moving slowly at low altitude. NATO radar and F-16 lock-ons were reported during the months-long wave.",
+    "witnesses": [
+      "Gendarmerie Eupen patrols"
+    ],
+    "strangenessScore": 8,
+    "confidence": 0.8700000000000001,
+    "durationMinutes": 180,
+    "sourceFile": "mock/DC-1989-0006.txt",
+    "hook": "F-16 radar tones over Brussels."
+  },
+  {
+    "id": "DC-1990-0088",
+    "date": "1990-11-24",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Skinwalker Ranch, UT",
+      "lat": 40.32507418392077,
+      "lng": -109.8258713670522,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "strangenessScore": 5,
+    "confidence": 0.33747851983644067,
+    "durationMinutes": 31,
+    "sourceFile": "mock/DC-1990-0091.txt"
+  },
+  {
+    "id": "DC-1992-0089",
+    "date": "1992-04-01",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "China",
+      "region": "Hangzhou",
+      "lat": 30.23575372100659,
+      "lng": 120.16935061826595,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Theo Costa",
+      "Idris Rashid"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.35202604457736014,
+    "durationMinutes": 29,
+    "sourceFile": "mock/DC-1992-0023.txt"
+  },
+  {
+    "id": "DC-1992-0090",
+    "date": "1992-11-17",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.65688163484447,
+      "lng": 174.98615746404977,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "infrared",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Lila Okafor",
+      "Eleanor Okafor"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.6110447304788977,
+    "durationMinutes": 5,
+    "sourceFile": "mock/DC-1992-0143.txt"
+  },
+  {
+    "id": "DC-1993-0091",
+    "date": "1993-03-27",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Japan",
+      "region": "Off Kyushu",
+      "lat": 32.27192049436271,
+      "lng": 130.06540794139727,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "A formation of three orange lights in a triangle was observed hovering silently. The lights reportedly executed an instantaneous 90-degree maneuver before disappearing.",
+    "witnesses": [
+      "Eleanor Costa"
+    ],
+    "strangenessScore": 8,
+    "confidence": 0.4005523061612621,
+    "durationMinutes": 48,
+    "sourceFile": "mock/DC-1993-0039.txt"
+  },
+  {
+    "id": "DC-1993-0092",
+    "date": "1993-10-17",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "France",
+      "region": "Trans-en-Provence",
+      "lat": 43.65210891282186,
+      "lng": 6.570870996818692,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "multi-sensor",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Marcus Rashid"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.37546154502779244,
+    "durationMinutes": 12,
+    "sourceFile": "mock/DC-1993-0027.txt"
+  },
+  {
+    "id": "DC-1993-0093",
+    "date": "1993-12-11",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Argentina",
+      "region": "Bariloche",
+      "lat": -41.01719013653137,
+      "lng": -71.21478013613931,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Anya Lindgren",
+      "Mateo Lindgren"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.7254824242088944,
+    "durationMinutes": 19,
+    "sourceFile": "mock/DC-1993-0136.txt"
+  },
+  {
+    "id": "DC-1994-0094",
+    "date": "1994-07-16",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Peru",
+      "region": "Marcahuasi",
+      "lat": -11.69387701013051,
+      "lng": -76.61387946788295,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "photographic",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Yuki Reyes",
+      "Yuki Okafor",
+      "Solange Costa"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.33936175152193754,
+    "durationMinutes": 8,
+    "sourceFile": "mock/DC-1994-0075.txt"
+  },
+  {
+    "id": "DC-1994-0095",
+    "date": "1994-08-01",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.649436837947,
+      "lng": 174.9096790272277,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Solange Rashid",
+      "Theo Okafor"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.40982189152855425,
+    "durationMinutes": 40,
+    "sourceFile": "mock/DC-1994-0103.txt"
+  },
+  {
+    "id": "DC-1994-0096",
+    "date": "1994-09-06",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Mexico",
+      "region": "Mexico City",
+      "lat": 19.196673934545743,
+      "lng": -99.00086613330693,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "photographic",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "witnesses": [
+      "Lila Tanaka",
+      "Eleanor Volkov",
+      "Theo Tanaka"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.6121731046121568,
+    "durationMinutes": 20,
+    "sourceFile": "mock/DC-1994-0081.txt"
+  },
+  {
+    "id": "DC-1996-0097",
+    "date": "1996-01-16",
+    "dateConfidence": "month",
+    "location": {
+      "country": "France",
+      "region": "Trans-en-Provence",
+      "lat": 43.758608759148046,
+      "lng": 6.27413108455278,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "photographic",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Marcus Okafor"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.5296036985935644,
+    "durationMinutes": 41,
+    "sourceFile": "mock/DC-1996-0050.txt"
+  },
+  {
+    "id": "DC-1996-0098",
+    "date": "1996-01-20",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Brazil",
+      "region": "Varginha, MG",
+      "lat": -21.5556,
+      "lng": -45.4297,
+      "precision": "exact"
+    },
+    "agency": "Other",
+    "type": "visual",
+    "description": "Multiple residents of Varginha reported sightings of an unusual figure and accompanying military activity over several days. The military denied involvement; the case became culturally significant in Brazilian UAP discourse.",
+    "witnesses": [
+      "Three local witnesses (anonymized)"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.5700000000000001,
+    "durationMinutes": 60,
+    "sourceFile": "mock/DC-1996-0017.txt",
+    "hook": "Brazil's own contested case."
+  },
+  {
+    "id": "DC-1996-0099",
+    "date": "1996-05-15",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Turkey",
+      "region": "Kumburgaz",
+      "lat": 41.1028718057774,
+      "lng": 27.98114246781394,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "visual",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "strangenessScore": 2,
+    "confidence": 0.7570708769606427,
+    "durationMinutes": 9,
+    "sourceFile": "mock/DC-1996-0110.txt"
+  },
+  {
+    "id": "DC-1996-0100",
+    "date": "1996-10-03",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Peru",
+      "region": "Marcahuasi",
+      "lat": -12.0485962225955,
+      "lng": -76.5742356521178,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Eleanor Park",
+      "Eleanor Okafor",
+      "Idris Costa"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.734797537745908,
+    "durationMinutes": 58,
+    "sourceFile": "mock/DC-1996-0121.txt"
+  },
+  {
+    "id": "DC-1997-0101",
+    "date": "1997-03-02",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Sweden",
+      "region": "Gulf of Bothnia",
+      "lat": 63.3206303242594,
+      "lng": 19.551007934007792,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "infrared",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "witnesses": [
+      "Yuki Reyes",
+      "Lila Lindgren"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.6218998034717516,
+    "durationMinutes": 16,
+    "sourceFile": "mock/DC-1997-0100.txt"
+  },
+  {
+    "id": "DC-1997-0102",
+    "date": "1997-03-13",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Phoenix, AZ",
+      "lat": 33.4484,
+      "lng": -112.074,
+      "precision": "exact"
+    },
+    "agency": "Other",
+    "type": "visual",
+    "description": "Thousands of witnesses across Arizona reported a V-shaped formation of lights passing silently over Phoenix. Governor Fife Symington initially mocked the event before later confirming he himself saw 'a massive delta-shaped craft'.",
+    "witnesses": [
+      "Gov. Fife Symington",
+      "Tim Ley family"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.79,
+    "durationMinutes": 110,
+    "sourceFile": "mock/DC-1997-0007.txt",
+    "hook": "A V-shaped formation a mile wide, drifting silently south."
+  },
+  {
+    "id": "DC-1997-0103",
+    "date": "1997-03-15",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "France",
+      "region": "Trans-en-Provence",
+      "lat": 43.457892410829665,
+      "lng": 6.377497595961019,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "infrared",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "witnesses": [
+      "Idris Lindgren",
+      "Mateo Okafor",
+      "Solange Reyes"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.3743894666666165,
+    "durationMinutes": 19,
+    "sourceFile": "mock/DC-1997-0069.txt"
+  },
+  {
+    "id": "DC-1998-0104",
+    "date": "1998-01-17",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Argentina",
+      "region": "Bariloche",
+      "lat": -40.86729163802601,
+      "lng": -71.59801283067763,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "infrared",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Idris Costa"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.5920896949945018,
+    "durationMinutes": 3,
+    "sourceFile": "mock/DC-1998-0104.txt"
+  },
+  {
+    "id": "DC-1998-0105",
+    "date": "1998-09-26",
+    "dateConfidence": "year",
+    "location": {
+      "country": "Japan",
+      "region": "Off Kyushu",
+      "lat": 32.4778642563615,
+      "lng": 129.8727492001839,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "multi-sensor",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Eleanor Okafor",
+      "Mateo Volkov",
+      "Dale Rashid"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.669354113820009,
+    "durationMinutes": 50,
+    "sourceFile": "mock/DC-1998-0029.txt"
+  },
+  {
+    "id": "DC-1999-0106",
+    "date": "1999-03-01",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Aurora, TX",
+      "lat": 33.11917493960299,
+      "lng": -97.57854216260239,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "radar",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Dale Tanaka"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.34149789398070424,
+    "durationMinutes": 51,
+    "sourceFile": "mock/DC-1999-0065.txt"
+  },
+  {
+    "id": "DC-2000-0107",
+    "date": "2000-04-19",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Spain",
+      "region": "Canary Islands",
+      "lat": 28.206507761802897,
+      "lng": -16.81735904154219,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "strangenessScore": 3,
+    "confidence": 0.6119974149158225,
+    "durationMinutes": 30,
+    "sourceFile": "mock/DC-2000-0128.txt"
+  },
+  {
+    "id": "DC-2000-0108",
+    "date": "2000-05-21",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.3098943760153,
+      "lng": 174.7840570218861,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "strangenessScore": 4,
+    "confidence": 0.6247168746311218,
+    "durationMinutes": 27,
+    "sourceFile": "mock/DC-2000-0095.txt"
+  },
+  {
+    "id": "DC-2001-0109",
+    "date": "2001-02-11",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Peru",
+      "region": "Marcahuasi",
+      "lat": -11.554070484674723,
+      "lng": -76.76324968632385,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "photographic",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "witnesses": [
+      "Mateo Tanaka",
+      "Lila Carter",
+      "Lila Reyes"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.3852176974294707,
+    "durationMinutes": 9,
+    "sourceFile": "mock/DC-2001-0123.txt"
+  },
+  {
+    "id": "DC-2001-0110",
+    "date": "2001-03-04",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Off Hawaii",
+      "lat": 21.41290718782693,
+      "lng": -157.92394656743855,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "infrared",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "strangenessScore": 5,
+    "confidence": 0.7520463194930926,
+    "durationMinutes": 47,
+    "sourceFile": "mock/DC-2001-0114.txt"
+  },
+  {
+    "id": "DC-2001-0111",
+    "date": "2001-07-20",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Peru",
+      "region": "Marcahuasi",
+      "lat": -11.700737162995338,
+      "lng": -76.75136004300862,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "radar",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "witnesses": [
+      "Yuki Ahmed",
+      "Lila Lindgren",
+      "Theo Carter"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.38925605949480085,
+    "durationMinutes": 4,
+    "sourceFile": "mock/DC-2001-0079.txt"
+  },
+  {
+    "id": "DC-2002-0112",
+    "date": "2002-12-09",
+    "dateConfidence": "year",
+    "location": {
+      "country": "China",
+      "region": "Hangzhou",
+      "lat": 30.220764256835356,
+      "lng": 120.40727452892102,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "witnesses": [
+      "Lila Volkov"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.5804794576950372,
+    "durationMinutes": 16,
+    "sourceFile": "mock/DC-2002-0020.txt"
+  },
+  {
+    "id": "DC-2003-0113",
+    "date": "2003-08-14",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Aurora, TX",
+      "lat": 32.992081654327365,
+      "lng": -97.31453840530813,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "strangenessScore": 4,
+    "confidence": 0.6359016533941031,
+    "durationMinutes": 40,
+    "sourceFile": "mock/DC-2003-0146.txt"
+  },
+  {
+    "id": "DC-2003-0114",
+    "date": "2003-10-05",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Levelland, TX",
+      "lat": 33.605201578855144,
+      "lng": -102.38135682844744,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "visual",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "witnesses": [
+      "Marcus Carter"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.47289888160303234,
+    "durationMinutes": 42,
+    "sourceFile": "mock/DC-2003-0034.txt"
+  },
+  {
+    "id": "DC-2004-0115",
+    "date": "2004-05-16",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Iceland",
+      "region": "Reykjavík approach",
+      "lat": 64.15906329727584,
+      "lng": -22.09718829780109,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "strangenessScore": 4,
+    "confidence": 0.7138150764629245,
+    "durationMinutes": 11,
+    "sourceFile": "mock/DC-2004-0096.txt"
+  },
+  {
+    "id": "DC-2004-0116",
+    "date": "2004-08-19",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Antarctica research station support flight",
+      "lat": -75,
+      "lng": 0,
+      "precision": "exact"
+    },
+    "agency": "NASA",
+    "type": "infrared",
+    "description": "A NASA C-130 logistical flight recorded an unresolved infrared anomaly off the coast of Queen Maud Land. The signature persisted across multiple sweeps and did not correlate with known traffic or wildlife.",
+    "witnesses": [
+      "NASA C-130 crew"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.67,
+    "durationMinutes": 12,
+    "sourceFile": "mock/DC-2004-0016.txt",
+    "hook": "Below the ice shelf, the heat refused to dissipate."
+  },
+  {
+    "id": "DC-2004-0117",
+    "date": "2004-11-14",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Off San Clemente, CA",
+      "lat": 32.4,
+      "lng": -119.5,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Aircrews from the USS Nimitz Carrier Strike Group tracked a tic-tac-shaped object that reportedly descended from 60,000 ft to sea level in seconds. The encounter was captured by F/A-18 FLIR pods and corroborated by SPY-1 radar on USS Princeton.",
+    "witnesses": [
+      "Cmdr. David Fravor",
+      "Lt. Cmdr. Alex Dietrich"
+    ],
+    "strangenessScore": 10,
+    "confidence": 0.99,
+    "durationMinutes": 5,
+    "sourceFile": "mock/DC-2004-0008.txt",
+    "hook": "FLIR1: the tic-tac."
+  },
+  {
+    "id": "DC-2005-0118",
+    "date": "2005-06-26",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Aurora, TX",
+      "lat": 33.33280554467291,
+      "lng": -97.7798979798179,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "multi-sensor",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "witnesses": [
+      "Yuki Volkov"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.37399199448991566,
+    "durationMinutes": 44,
+    "sourceFile": "mock/DC-2005-0038.txt"
+  },
+  {
+    "id": "DC-2005-0119",
+    "date": "2005-07-26",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Peru",
+      "region": "Marcahuasi",
+      "lat": -11.803935806955398,
+      "lng": -76.455354588582,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "radar",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Lila Costa",
+      "Dale Costa",
+      "Theo Park"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.37604038005229085,
+    "durationMinutes": 47,
+    "sourceFile": "mock/DC-2005-0098.txt"
+  },
+  {
+    "id": "DC-2005-0120",
+    "date": "2005-08-26",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "South Africa",
+      "region": "Kruger NP",
+      "lat": -23.696873880514875,
+      "lng": 31.65166180545725,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "infrared",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Idris Costa",
+      "Theo Volkov",
+      "Yuki Okafor"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.6991637789877132,
+    "durationMinutes": 58,
+    "sourceFile": "mock/DC-2005-0108.txt"
+  },
+  {
+    "id": "DC-2006-0121",
+    "date": "2006-07-10",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.35192101555876,
+      "lng": 175.0930616047699,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "radar",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Lila Tanaka",
+      "Theo Okafor"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.6020932239014656,
+    "durationMinutes": 31,
+    "sourceFile": "mock/DC-2006-0078.txt"
+  },
+  {
+    "id": "DC-2006-0122",
+    "date": "2006-08-14",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Mexico",
+      "region": "Mexico City",
+      "lat": 19.40839091899097,
+      "lng": -99.26571894763671,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "witnesses": [
+      "Anya Reyes",
+      "Solange Volkov"
+    ],
+    "strangenessScore": 8,
+    "confidence": 0.30620920257642864,
+    "durationMinutes": 27,
+    "sourceFile": "mock/DC-2006-0074.txt"
+  },
+  {
+    "id": "DC-2006-0123",
+    "date": "2006-11-11",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Turkey",
+      "region": "Kumburgaz",
+      "lat": 41.03893892790526,
+      "lng": 28.021883552935346,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "infrared",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Lila Ahmed",
+      "Mateo Park",
+      "Mateo Rashid"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.5828144225059078,
+    "durationMinutes": 26,
+    "sourceFile": "mock/DC-2006-0064.txt"
+  },
+  {
+    "id": "DC-2007-0124",
+    "date": "2007-05-18",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Australia",
+      "region": "Westall, VIC",
+      "lat": -38.12665385721251,
+      "lng": 145.43017198361457,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Solange Rashid"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.4171643288107589,
+    "durationMinutes": 33,
+    "sourceFile": "mock/DC-2007-0160.txt"
+  },
+  {
+    "id": "DC-2007-0125",
+    "date": "2007-06-27",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Turkey",
+      "region": "Kumburgaz",
+      "lat": 40.90028372027315,
+      "lng": 28.303435561987012,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "radar",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Lila Lindgren"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.3926879858598113,
+    "durationMinutes": 4,
+    "sourceFile": "mock/DC-2007-0082.txt"
+  },
+  {
+    "id": "DC-2008-0126",
+    "date": "2008-01-08",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Stephenville, TX",
+      "lat": 32.2207,
+      "lng": -98.2023,
+      "precision": "exact"
+    },
+    "agency": "Other",
+    "type": "radar",
+    "description": "Dozens of residents and a county constable reported a fast-moving low-altitude object with bright lights. FAA radar data later obtained via FOIA showed an unidentified track heading toward President Bush's Crawford ranch airspace.",
+    "witnesses": [
+      "Constable L. Claburn"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.67,
+    "durationMinutes": 8,
+    "sourceFile": "mock/DC-2008-0009.txt",
+    "hook": "FAA radar data tracked the unknown toward restricted airspace."
+  },
+  {
+    "id": "DC-2008-0127",
+    "date": "2008-04-23",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Kokomo, IN",
+      "lat": 40.4864,
+      "lng": -86.1336,
+      "precision": "exact"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "Hundreds of residents reported a low-altitude formation of orange orbs hovering silently over Kokomo. Local police received the heaviest call volume the dispatcher had recorded that decade.",
+    "strangenessScore": 3,
+    "confidence": 0.6,
+    "durationMinutes": 22,
+    "sourceFile": "mock/DC-2008-0018.txt"
+  },
+  {
+    "id": "DC-2008-0128",
+    "date": "2008-06-03",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Pascagoula, MS",
+      "lat": 30.473294887164606,
+      "lng": -88.26417241927832,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Eleanor Rashid",
+      "Lila Okafor",
+      "Anya Ahmed"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.3574855204904452,
+    "durationMinutes": 16,
+    "sourceFile": "mock/DC-2008-0102.txt"
+  },
+  {
+    "id": "DC-2010-0129",
+    "date": "2010-05-11",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.61809900494032,
+      "lng": -95.5400043097891,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Marcus Volkov"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.6581528899958358,
+    "durationMinutes": 21,
+    "sourceFile": "mock/DC-2010-0058.txt"
+  },
+  {
+    "id": "DC-2011-0130",
+    "date": "2011-06-04",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Iceland",
+      "region": "Reykjavík approach",
+      "lat": 63.91021834234559,
+      "lng": -22.09445607089661,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "multi-sensor",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Yuki Lindgren",
+      "Dale Tanaka"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.5651160001987592,
+    "durationMinutes": 34,
+    "sourceFile": "mock/DC-2011-0145.txt"
+  },
+  {
+    "id": "DC-2012-0131",
+    "date": "2012-09-10",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Egypt",
+      "region": "Western Desert",
+      "lat": 26.814303121715785,
+      "lng": 28.09231196087785,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "strangenessScore": 6,
+    "confidence": 0.5044330216012896,
+    "durationMinutes": 14,
+    "sourceFile": "mock/DC-2012-0133.txt"
+  },
+  {
+    "id": "DC-2012-0132",
+    "date": "2012-12-06",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Aurora, TX",
+      "lat": 33.03925938659758,
+      "lng": -97.55418316748329,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "witnesses": [
+      "Solange Park"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.6955040961736814,
+    "durationMinutes": 52,
+    "sourceFile": "mock/DC-2012-0159.txt"
+  },
+  {
+    "id": "DC-2013-0133",
+    "date": "2013-01-05",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Pascagoula, MS",
+      "lat": 30.63485377834551,
+      "lng": -88.27579567285851,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Radar operators tracked a sustained return that climbed at a rate inconsistent with conventional aircraft. The object held station against a 40-knot headwind with no visible propulsion.",
+    "witnesses": [
+      "Idris Ahmed",
+      "Anya Carter",
+      "Dale Reyes"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.6016984410351143,
+    "durationMinutes": 26,
+    "sourceFile": "mock/DC-2013-0111.txt"
+  },
+  {
+    "id": "DC-2014-0134",
+    "date": "2014-02-16",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Pascagoula, MS",
+      "lat": 30.534461953382937,
+      "lng": -88.54558986888863,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "infrared",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Eleanor Reyes",
+      "Dale Ahmed"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.47164019716437905,
+    "durationMinutes": 45,
+    "sourceFile": "mock/DC-2014-0056.txt"
+  },
+  {
+    "id": "DC-2014-0135",
+    "date": "2014-10-03",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Iceland",
+      "region": "Reykjavík approach",
+      "lat": 63.89127019918375,
+      "lng": -21.67930903723687,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "multi-sensor",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "strangenessScore": 7,
+    "confidence": 0.35052599357441067,
+    "durationMinutes": 53,
+    "sourceFile": "mock/DC-2014-0089.txt"
+  },
+  {
+    "id": "DC-2015-0136",
+    "date": "2015-01-21",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Off Jacksonville, FL",
+      "lat": 30.2,
+      "lng": -80,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "F/A-18 aircrews from the USS Theodore Roosevelt recorded a fast-moving low-altitude object via FLIR. The 'GIMBAL' and 'GO FAST' clips, declassified by DoD in 2020, drew attention to the object's apparent rotation against the prevailing wind.",
+    "witnesses": [
+      "F/A-18 aircrews, VFA-11"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.8200000000000001,
+    "durationMinutes": 1,
+    "sourceFile": "mock/DC-2015-0010.txt",
+    "hook": "'Look at that thing, dude.'"
+  },
+  {
+    "id": "DC-2015-0137",
+    "date": "2015-10-02",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Spain",
+      "region": "Canary Islands",
+      "lat": 28.272321045751124,
+      "lng": -16.799460080339017,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "photographic",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "strangenessScore": 5,
+    "confidence": 0.653194373077713,
+    "durationMinutes": 36,
+    "sourceFile": "mock/DC-2015-0055.txt"
+  },
+  {
+    "id": "DC-2016-0138",
+    "date": "2016-02-17",
+    "dateConfidence": "year",
+    "location": {
+      "country": "Australia",
+      "region": "Westall, VIC",
+      "lat": -37.938439078545194,
+      "lng": 145.44880194833502,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "infrared",
+    "description": "A formation of three orange lights in a triangle was observed hovering silently. The lights reportedly executed an instantaneous 90-degree maneuver before disappearing.",
+    "witnesses": [
+      "Dale Okafor"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.7620907979551703,
+    "durationMinutes": 36,
+    "sourceFile": "mock/DC-2016-0080.txt"
+  },
+  {
+    "id": "DC-2016-0139",
+    "date": "2016-07-16",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Pascagoula, MS",
+      "lat": 30.374947429200635,
+      "lng": -88.79522572232075,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Solange Costa",
+      "Mateo Costa",
+      "Solange Okafor"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.5480658836429939,
+    "durationMinutes": 30,
+    "sourceFile": "mock/DC-2016-0118.txt"
+  },
+  {
+    "id": "DC-2017-0140",
+    "date": "2017-04-20",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Indonesia",
+      "region": "Off Bali",
+      "lat": -8.551941955741494,
+      "lng": 115.38154320688918,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "radar",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Lila Tanaka",
+      "Eleanor Okafor",
+      "Solange Carter"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.7861805001273752,
+    "durationMinutes": 14,
+    "sourceFile": "mock/DC-2017-0120.txt"
+  },
+  {
+    "id": "DC-2017-0141",
+    "date": "2017-07-10",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Chile",
+      "region": "Atacama Desert",
+      "lat": -24.68627588073723,
+      "lng": -69.52661434388719,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "multi-sensor",
+    "description": "Two crew members of a commercial aircraft observed a metallic sphere paralleling their course at the same altitude. The object made no transponder return and was not on flight following.",
+    "witnesses": [
+      "Theo Okafor"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.7107417454943061,
+    "durationMinutes": 18,
+    "sourceFile": "mock/DC-2017-0037.txt"
+  },
+  {
+    "id": "DC-2018-0142",
+    "date": "2018-01-26",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Iceland",
+      "region": "Reykjavík approach",
+      "lat": 64.10228717638962,
+      "lng": -21.693219984045623,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Theo Carter",
+      "Lila Ahmed"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.46437481401953845,
+    "durationMinutes": 27,
+    "sourceFile": "mock/DC-2018-0099.txt"
+  },
+  {
+    "id": "DC-2018-0143",
+    "date": "2018-03-03",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Skinwalker Ranch, UT",
+      "lat": 40.52445561688244,
+      "lng": -109.7960436437726,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "visual",
+    "description": "A glowing orb was observed maneuvering silently at low altitude. Witnesses described it as making a sharp right-angle turn before accelerating beyond visual range.",
+    "witnesses": [
+      "Dale Reyes"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.39834522393066435,
+    "durationMinutes": 46,
+    "sourceFile": "mock/DC-2018-0147.txt"
+  },
+  {
+    "id": "DC-2018-0144",
+    "date": "2018-07-22",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Indonesia",
+      "region": "Off Bali",
+      "lat": -8.365851777885108,
+      "lng": 115.60590445781126,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "multi-sensor",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Dale Tanaka",
+      "Solange Volkov",
+      "Dale Lindgren"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.5212840450229124,
+    "durationMinutes": 7,
+    "sourceFile": "mock/DC-2018-0122.txt"
+  },
+  {
+    "id": "DC-2018-0145",
+    "date": "2018-10-02",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.71314494041727,
+      "lng": 174.94850270785392,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "multi-sensor",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "strangenessScore": 5,
+    "confidence": 0.7243726298445836,
+    "durationMinutes": 30,
+    "sourceFile": "mock/DC-2018-0092.txt"
+  },
+  {
+    "id": "DC-2019-0146",
+    "date": "2019-07-15",
+    "dateConfidence": "month",
+    "location": {
+      "country": "United States",
+      "region": "Off San Diego, CA",
+      "lat": 32.7,
+      "lng": -117.2,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Multiple destroyers — including USS Russell and USS Kidd — tracked swarms of unidentified aerial objects over a period of weeks. The 'drone swarm' incident later became the subject of internal Navy investigation.",
+    "witnesses": [
+      "USS Russell bridge watch"
+    ],
+    "strangenessScore": 7,
+    "confidence": 0.8200000000000001,
+    "durationMinutes": 1200,
+    "sourceFile": "mock/DC-2019-0011.txt",
+    "hook": "A swarm that loitered with destroyers for days."
+  },
+  {
+    "id": "DC-2019-0147",
+    "date": "2019-10-18",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Russia",
+      "region": "Petrozavodsk",
+      "lat": 61.567589063996074,
+      "lng": 34.21656558196582,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "infrared",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "strangenessScore": 6,
+    "confidence": 0.660022385022603,
+    "durationMinutes": 36,
+    "sourceFile": "mock/DC-2019-0106.txt"
+  },
+  {
+    "id": "DC-2020-0148",
+    "date": "2020-02-13",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Spain",
+      "region": "Canary Islands",
+      "lat": 28.191854785222933,
+      "lng": -16.715342148978635,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "photographic",
+    "description": "Sonar contact intermittently returned a fast-mover near the surface, then submerged. The crew classified the contact as a transmedium anomaly.",
+    "witnesses": [
+      "Lila Ahmed",
+      "Dale Volkov"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.5536555466940627,
+    "durationMinutes": 27,
+    "sourceFile": "mock/DC-2020-0085.txt"
+  },
+  {
+    "id": "DC-2021-0149",
+    "date": "2021-02-06",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Russia",
+      "region": "Petrozavodsk",
+      "lat": 61.79782757326737,
+      "lng": 34.3482380699791,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "multi-sensor",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "strangenessScore": 5,
+    "confidence": 0.4013315028976649,
+    "durationMinutes": 28,
+    "sourceFile": "mock/DC-2021-0049.txt"
+  },
+  {
+    "id": "DC-2021-0150",
+    "date": "2021-09-28",
+    "dateConfidence": "month",
+    "location": {
+      "country": "France",
+      "region": "Trans-en-Provence",
+      "lat": 43.2664306808263,
+      "lng": 6.405739313543588,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "multi-sensor",
+    "description": "A fast-moving object with a contrail inconsistent with conventional aircraft was reported by airline pilots. ATC received calls from multiple flights within a thirty-minute window.",
+    "witnesses": [
+      "Yuki Ahmed",
+      "Theo Ahmed"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.3745356831466779,
+    "durationMinutes": 38,
+    "sourceFile": "mock/DC-2021-0134.txt"
+  },
+  {
+    "id": "DC-2022-0151",
+    "date": "2022-01-15",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Chile",
+      "region": "Atacama Desert",
+      "lat": -24.67412839345634,
+      "lng": -69.44176133540459,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "visual",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Mateo Park",
+      "Yuki Park"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.40575896711088716,
+    "durationMinutes": 11,
+    "sourceFile": "mock/DC-2022-0032.txt"
+  },
+  {
+    "id": "DC-2022-0152",
+    "date": "2022-04-23",
+    "dateConfidence": "year",
+    "location": {
+      "country": "Antarctica",
+      "region": "Ross Ice Shelf",
+      "lat": -81.46898221927695,
+      "lng": 175.0296648324467,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "multi-sensor",
+    "description": "Witnesses photographed a metallic disc reflecting late-afternoon sunlight at high altitude. Image analysis was inconclusive due to lack of reference points.",
+    "witnesses": [
+      "Idris Okafor",
+      "Mateo Okafor"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.78414761479944,
+    "durationMinutes": 25,
+    "sourceFile": "mock/DC-2022-0109.txt"
+  },
+  {
+    "id": "DC-2023-0153",
+    "date": "2023-02-04",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Off Myrtle Beach, SC",
+      "lat": 33.6891,
+      "lng": -78.8867,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "A high-altitude balloon of foreign origin was shot down by an F-22 after traversing the continental United States. The incident triggered increased NORAD sensitivity and a brief wave of additional shoot-downs over Alaska and Lake Huron.",
+    "witnesses": [
+      "NORAD operators"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.5700000000000001,
+    "durationMinutes": 4,
+    "sourceFile": "mock/DC-2023-0012.txt",
+    "hook": "The shoot-down that recalibrated NORAD's filters."
+  },
+  {
+    "id": "DC-2023-0154",
+    "date": "2023-02-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Spain",
+      "region": "Canary Islands",
+      "lat": 28.435051583664862,
+      "lng": -16.78087763667889,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "infrared",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "strangenessScore": 4,
+    "confidence": 0.6312904119957239,
+    "durationMinutes": 14,
+    "sourceFile": "mock/DC-2023-0119.txt"
+  },
+  {
+    "id": "DC-2023-0155",
+    "date": "2023-05-03",
+    "dateConfidence": "year",
+    "location": {
+      "country": "United States",
+      "region": "Skinwalker Ranch, UT",
+      "lat": 40.51816467780471,
+      "lng": -110.02832793323137,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "infrared",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "strangenessScore": 4,
+    "confidence": 0.47386143188923596,
+    "durationMinutes": 33,
+    "sourceFile": "mock/DC-2023-0097.txt"
+  },
+  {
+    "id": "DC-2024-0156",
+    "date": "2024-06-18",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Japan",
+      "region": "Off Kyushu",
+      "lat": 32.74366416903213,
+      "lng": 129.8874454642646,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "photographic",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "strangenessScore": 3,
+    "confidence": 0.3508046840550378,
+    "durationMinutes": 43,
+    "sourceFile": "mock/DC-2024-0086.txt"
+  },
+  {
+    "id": "DC-2024-0157",
+    "date": "2024-07-19",
+    "dateConfidence": "year",
+    "location": {
+      "country": "United States",
+      "region": "Levelland, TX",
+      "lat": 33.54843950645775,
+      "lng": -102.62908634512871,
+      "precision": "approximate"
+    },
+    "agency": "DoD",
+    "type": "photographic",
+    "description": "A formation of three orange lights in a triangle was observed hovering silently. The lights reportedly executed an instantaneous 90-degree maneuver before disappearing.",
+    "witnesses": [
+      "Theo Volkov"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.7214288094080985,
+    "durationMinutes": 42,
+    "sourceFile": "mock/DC-2024-0028.txt"
+  },
+  {
+    "id": "DC-2024-0158",
+    "date": "2024-10-03",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Iceland",
+      "region": "Reykjavík approach",
+      "lat": 64.30225712791868,
+      "lng": -21.792688980188593,
+      "precision": "approximate"
+    },
+    "agency": "Other",
+    "type": "infrared",
+    "description": "An infrared anomaly was recorded by a NOAA satellite, persisting across multiple passes. No corresponding visual track was confirmed.",
+    "witnesses": [
+      "Anya Ahmed",
+      "Dale Park",
+      "Mateo Carter"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.3527652190066874,
+    "durationMinutes": 43,
+    "sourceFile": "mock/DC-2024-0090.txt"
+  },
+  {
+    "id": "DC-2024-0159",
+    "date": "2024-10-06",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Chile",
+      "region": "Atacama Desert",
+      "lat": -24.3232338283211,
+      "lng": -69.31671279976145,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "infrared",
+    "description": "A formation of three orange lights in a triangle was observed hovering silently. The lights reportedly executed an instantaneous 90-degree maneuver before disappearing.",
+    "witnesses": [
+      "Mateo Reyes",
+      "Anya Okafor"
+    ],
+    "strangenessScore": 8,
+    "confidence": 0.5027492128545419,
+    "durationMinutes": 31,
+    "sourceFile": "mock/DC-2024-0117.txt"
+  },
+  {
+    "id": "DC-2025-0160",
+    "date": "2025-04-18",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Greenland",
+      "region": "Thule airspace",
+      "lat": 76.35228000360205,
+      "lng": -68.42462293569632,
+      "precision": "approximate"
+    },
+    "agency": "State",
+    "type": "multi-sensor",
+    "description": "A multi-sensor track was logged across infrared and primary radar during a routine training exercise. The signature departed at a heading that crossed restricted airspace.",
+    "witnesses": [
+      "Dale Okafor",
+      "Dale Tanaka",
+      "Anya Lindgren"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.38946078037843107,
+    "durationMinutes": 19,
+    "sourceFile": "mock/DC-2025-0030.txt"
+  },
+  {
+    "id": "DC-2025-0161",
+    "date": "2025-04-21",
+    "dateConfidence": "month",
+    "location": {
+      "country": "Canada",
+      "region": "Falcon Lake, MB",
+      "lat": 49.794109139430525,
+      "lng": -95.14792747149319,
+      "precision": "approximate"
+    },
+    "agency": "FBI",
+    "type": "photographic",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Dale Costa",
+      "Theo Rashid"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.3214210426202044,
+    "durationMinutes": 22,
+    "sourceFile": "mock/DC-2025-0062.txt"
+  },
+  {
+    "id": "DC-2026-0162",
+    "date": "2026-03-01",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "Greenland",
+      "region": "Thule airspace",
+      "lat": 76.2867600882206,
+      "lng": -68.8545429858256,
+      "precision": "approximate"
+    },
+    "agency": "NASA",
+    "type": "visual",
+    "description": "Ground witnesses observed a luminous object that hovered, descended, and then ascended at very high speed without an audible signature. No exhaust or sonic boom was reported.",
+    "witnesses": [
+      "Eleanor Carter"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.7749074695864693,
+    "durationMinutes": 15,
+    "sourceFile": "mock/DC-2026-0088.txt"
+  }
+]
