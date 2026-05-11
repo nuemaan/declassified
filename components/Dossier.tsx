@@ -6,6 +6,7 @@ import { AIAnalyst } from "./AIAnalyst";
 import { audio } from "@/lib/audio";
 import { redactionsFor, segmentDescription } from "@/lib/redactions";
 import { getSighting } from "@/lib/data";
+import { topMatches } from "@/lib/similarity";
 import { strangenessBucket } from "@/lib/strangeness";
 import { useArchive } from "@/lib/store";
 import { TypewriterSegments } from "./Typewriter";
@@ -118,10 +119,7 @@ export function Dossier() {
             </Section>
 
             <Section title="Connections">
-              <Placeholder>
-                Available in step 10 — arcs to cases with similar
-                signatures.
-              </Placeholder>
+              <ConnectionsList sightingId={sighting.id} onJump={(id) => setSelected(id)} />
             </Section>
 
             <div className="mt-6 border-t border-archive-line pt-3 text-[9px] uppercase leading-relaxed tracking-wider2 text-archive-paperDim/70">
@@ -236,6 +234,49 @@ function Placeholder({ children }: { children: React.ReactNode }) {
     <div className="border border-dashed border-archive-line bg-archive-void/40 px-3 py-2 text-[11px] text-archive-paperDim mono-tight">
       {children}
     </div>
+  );
+}
+
+function ConnectionsList({ sightingId, onJump }: { sightingId: string; onJump: (id: string) => void }) {
+  const matches = topMatches(sightingId, 5);
+  if (matches.length === 0) {
+    return (
+      <Placeholder>No correlated cases at the current similarity threshold.</Placeholder>
+    );
+  }
+  return (
+    <ul className="space-y-1.5">
+      {matches.map((m) => {
+        const s = getSighting(m.id);
+        if (!s) return null;
+        return (
+          <li key={m.id}>
+            <button
+              type="button"
+              onClick={() => onJump(m.id)}
+              className="group flex w-full items-start justify-between gap-2 border border-archive-line bg-archive-void/40 px-2 py-1.5 text-left hover:border-graticule/60"
+            >
+              <div className="min-w-0 flex-1">
+                <div className="text-[11px] text-archive-paper mono-tight">
+                  {s.location.region ?? s.location.country}
+                </div>
+                <div className="text-[9px] tracking-wider2 text-archive-paperDim/80">
+                  {s.date} · {s.agency} · {s.type}
+                </div>
+              </div>
+              <div className="text-right">
+                <div className="text-[9px] uppercase tracking-wider2 text-graticule/80 group-hover:text-graticule">
+                  ▸ open
+                </div>
+                <div className="text-[9px] tabular-nums text-archive-paperDim/70">
+                  {(m.score * 100).toFixed(0)}%
+                </div>
+              </div>
+            </button>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
 

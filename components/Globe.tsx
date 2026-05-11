@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import GlobeGL, { type GlobeMethods } from "react-globe.gl";
 import { audio } from "@/lib/audio";
+import { pairsAbove } from "@/lib/similarity";
 import { useArchive } from "@/lib/store";
 import { strangenessBucket } from "@/lib/strangeness";
 import type { Sighting } from "@/lib/types";
@@ -75,6 +76,36 @@ export default function Globe({ sightings }: GlobeProps) {
     () => sightings.filter((s) => s.date <= revealedThrough).map(toMarker),
     [sightings, revealedThrough]
   );
+
+  // Connections — top arcs between visible sightings whose similarity is above
+  // a threshold. Recomputed when the visible set changes (timeline playhead)
+  // or when the mode toggles on.
+  const connectionsEnabled = useArchive((s) => s.connectionsEnabled);
+  const arcs = useMemo(() => {
+    if (!connectionsEnabled) return [];
+    const visibleIds = new Set(
+      sightings.filter((s) => s.date <= revealedThrough).map((s) => s.id)
+    );
+    const byId = new Map(sightings.map((s) => [s.id, s] as const));
+    const pairs = pairsAbove(0.22)
+      .filter((p) => visibleIds.has(p.from) && visibleIds.has(p.to))
+      .slice(0, 140);
+    return pairs.map((p) => {
+      const a = byId.get(p.from)!;
+      const b = byId.get(p.to)!;
+      // Stronger correlation → brighter arc.
+      const alpha = Math.min(1, 0.25 + p.score * 1.5);
+      const color = `rgba(14, 230, 255, ${alpha.toFixed(3)})`;
+      return {
+        startLat: a.location.lat,
+        startLng: a.location.lng,
+        endLat: b.location.lat,
+        endLng: b.location.lng,
+        color,
+        score: p.score,
+      };
+    });
+  }, [connectionsEnabled, sightings, revealedThrough]);
 
   // Track container size for the canvas.
   useEffect(() => {
@@ -199,6 +230,18 @@ export default function Globe({ sightings }: GlobeProps) {
             return (t: number) => `rgba(${rgb}, ${(1 - t).toFixed(3)})`;
           }}
           ringResolution={48}
+          // Connections arcs — drawn between similar sightings when enabled
+          arcsData={arcs}
+          arcStartLat="startLat"
+          arcStartLng="startLng"
+          arcEndLat="endLat"
+          arcEndLng="endLng"
+          arcColor={(d: object) => (d as { color: string }).color}
+          arcStroke={0.35}
+          arcAltitudeAutoScale={0.45}
+          arcDashLength={0.4}
+          arcDashGap={0.25}
+          arcDashAnimateTime={3200}
         />
       ) : null}
     </div>

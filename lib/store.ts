@@ -17,6 +17,10 @@ interface ArchiveState {
   /** True when the user is dragging the globe — pauses auto-rotate. */
   globeInteracting: boolean;
   setGlobeInteracting: (v: boolean) => void;
+
+  /** True when Connections mode is on — draws arcs between similar sightings. */
+  connectionsEnabled: boolean;
+  toggleConnections: () => void;
 }
 
 const DEFAULT_END = "2026-12-31";
@@ -34,4 +38,7 @@ export const useArchive = create<ArchiveState>((set) => ({
 
   globeInteracting: false,
   setGlobeInteracting: (v) => set({ globeInteracting: v }),
+
+  connectionsEnabled: false,
+  toggleConnections: () => set((s) => ({ connectionsEnabled: !s.connectionsEnabled })),
 }));

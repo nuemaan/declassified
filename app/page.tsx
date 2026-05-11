@@ -2,6 +2,7 @@ import { AudioToggle } from "@/components/AudioToggle";
 import { BootSequence } from "@/components/BootSequence";
 import { CaseStamp } from "@/components/CaseStamp";
 import { ClassificationStamp } from "@/components/ClassificationStamp";
+import { ConnectionsToggle } from "@/components/ConnectionsToggle";
 import { Dossier } from "@/components/Dossier";
 import { FeaturedDossierButton } from "@/components/FeaturedDossierButton";
 import { GlobeMount } from "@/components/GlobeMount";
@@ -49,6 +50,7 @@ export default function HomePage() {
         </div>
         {featured ? <FeaturedDossierButton id={featured.id} label={featured.id} /> : null}
         <LocalAnomalyButton />
+        <ConnectionsToggle />
       </div>
 
       {/* Dossier panel — slides in from the right when a sighting is selected */}
