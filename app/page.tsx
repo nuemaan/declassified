@@ -1,5 +1,7 @@
 import { CaseStamp } from "@/components/CaseStamp";
 import { ClassificationStamp } from "@/components/ClassificationStamp";
+import { Dossier } from "@/components/Dossier";
+import { FeaturedDossierButton } from "@/components/FeaturedDossierButton";
 import { GlobeMount } from "@/components/GlobeMount";
 import { manifest, sightings } from "@/lib/data";
 import { strangenessBucket } from "@/lib/strangeness";
@@ -9,6 +11,8 @@ export default function HomePage() {
   for (const s of sightings) buckets[strangenessBucket(s.strangenessScore)]++;
   const yearLo = new Date(manifest.dateRange[0]).getUTCFullYear();
   const yearHi = new Date(manifest.dateRange[1]).getUTCFullYear();
+  // Featured = top-strangeness case (Nimitz in the mock set).
+  const featured = [...sightings].sort((a, b) => b.strangenessScore - a.strangenessScore)[0];
 
   return (
     <main className="relative h-screen w-full overflow-hidden bg-archive-void">
@@ -36,7 +40,11 @@ export default function HomePage() {
           <BucketChip count={buckets.amber} tone="amber" />
           <BucketChip count={buckets.redalert} tone="redalert" />
         </div>
+        {featured ? <FeaturedDossierButton id={featured.id} label={featured.id} /> : null}
       </div>
+
+      {/* Dossier panel — slides in from the right when a sighting is selected */}
+      <Dossier />
 
       {/* Bottom-right: interaction hint */}
       <div className="absolute bottom-12 right-4 z-20 select-none text-right text-[10px] uppercase tracking-wider2 text-archive-paperDim/80">
