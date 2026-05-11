@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo } from "react";
+import { AIAnalyst } from "./AIAnalyst";
 import { audio } from "@/lib/audio";
 import { redactionsFor, segmentDescription } from "@/lib/redactions";
 import { getSighting } from "@/lib/data";
@@ -113,10 +114,7 @@ export function Dossier() {
             ) : null}
 
             <Section title="AI analyst">
-              <Placeholder>
-                Available in step 9 — plausibility breakdown, similar
-                historical sightings, one quotable line.
-              </Placeholder>
+              <AIAnalyst sightingId={sighting.id} />
             </Section>
 
             <Section title="Connections">
