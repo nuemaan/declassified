@@ -1,3 +1,5 @@
+import { AudioToggle } from "@/components/AudioToggle";
+import { BootSequence } from "@/components/BootSequence";
 import { CaseStamp } from "@/components/CaseStamp";
 import { ClassificationStamp } from "@/components/ClassificationStamp";
 import { Dossier } from "@/components/Dossier";
@@ -23,8 +25,11 @@ export default function HomePage() {
       {/* Top-left: case ref */}
       <CaseStamp />
 
-      {/* Top-right: classification stamp */}
+      {/* Top-right: classification stamp + audio toggle */}
       <ClassificationStamp />
+      <div className="absolute right-4 top-12 z-20">
+        <AudioToggle />
+      </div>
 
       {/* Bottom-left: dataset readout (sits above the timeline strip) */}
       <div className="absolute bottom-36 left-4 z-20 w-[224px] select-none border border-archive-line bg-archive-panel/80 px-3 py-2 backdrop-blur-sm md:bottom-32">
@@ -49,6 +54,9 @@ export default function HomePage() {
 
       {/* Timeline scrubber — bottom strip */}
       <Timeline />
+
+      {/* Cinematic boot — covers everything until skipped or 3.7s elapsed */}
+      <BootSequence />
 
       {/* Bottom-right: interaction hint (sits above the timeline strip) */}
       <div className="absolute bottom-36 right-4 z-20 select-none text-right text-[10px] uppercase tracking-wider2 text-archive-paperDim/80 md:bottom-32">

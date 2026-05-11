@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { audio } from "@/lib/audio";
 import { getAllSightings } from "@/lib/data";
 import { useArchive } from "@/lib/store";
 import {
@@ -69,6 +70,11 @@ export function Timeline() {
   useEffect(() => {
     revealedRef.current = revealedThrough;
   }, [revealedThrough]);
+
+  // Drive the drone in lockstep with the play state.
+  useEffect(() => {
+    audio().setDrone(playing);
+  }, [playing]);
 
   useEffect(() => {
     if (!playing) return;

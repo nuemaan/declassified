@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import GlobeGL, { type GlobeMethods } from "react-globe.gl";
+import { audio } from "@/lib/audio";
 import { useArchive } from "@/lib/store";
 import { strangenessBucket } from "@/lib/strangeness";
 import type { Sighting } from "@/lib/types";
@@ -182,7 +183,9 @@ export default function Globe({ sightings }: GlobeProps) {
             setSelected(m.id);
           }}
           onPointHover={(p: object | null) => {
-            setHoverId(p ? (p as MarkerPoint).id : null);
+            const id = p ? (p as MarkerPoint).id : null;
+            setHoverId(id);
+            if (id) audio().ping();
           }}
           // Pulsing rings
           ringsData={markers}

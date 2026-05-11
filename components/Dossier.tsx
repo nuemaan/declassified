@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo } from "react";
+import { audio } from "@/lib/audio";
 import { redactionsFor, segmentDescription } from "@/lib/redactions";
 import { getSighting } from "@/lib/data";
 import { strangenessBucket } from "@/lib/strangeness";
@@ -35,6 +36,11 @@ export function Dossier() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [selectedId, setSelected]);
+
+  // Audio cue when a dossier opens (a single clack — not per character).
+  useEffect(() => {
+    if (selectedId) audio().clack();
+  }, [selectedId]);
 
   // Precompute redactions and segment the description.
   const segments = useMemo(() => {
