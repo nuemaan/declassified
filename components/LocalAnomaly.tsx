@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { audio } from "@/lib/audio";
 import { getAllSightings } from "@/lib/data";
 import { formatDistance, nearestSighting, type NearestResult } from "@/lib/geo";
@@ -120,7 +121,15 @@ function LocalAnomalyModal({ open, onClose }: { open: boolean; onClose: () => vo
     setErrorText(null);
   };
 
-  return (
+  // Track when the portal target is mounted so SSR / first render is safe.
+  const [portalTarget, setPortalTarget] = useState<Element | null>(null);
+  useEffect(() => {
+    setPortalTarget(document.body);
+  }, []);
+
+  if (!portalTarget) return null;
+
+  return createPortal(
     <AnimatePresence>
       {open ? (
         <motion.div
@@ -129,7 +138,7 @@ function LocalAnomalyModal({ open, onClose }: { open: boolean; onClose: () => vo
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.18 }}
-          className="absolute inset-0 z-40 flex items-center justify-center bg-archive-void/80 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-archive-void/85 px-4 py-6 backdrop-blur-sm"
           onClick={onClose}
         >
           <motion.div
@@ -141,7 +150,7 @@ function LocalAnomalyModal({ open, onClose }: { open: boolean; onClose: () => vo
             exit={{ opacity: 0, y: 6, scale: 0.98 }}
             transition={{ duration: 0.24, ease: [0.7, 0, 0.3, 1] }}
             onClick={(e) => e.stopPropagation()}
-            className="mx-4 w-full max-w-md border border-archive-line bg-archive-panel"
+            className="max-h-[88vh] w-full max-w-md overflow-y-auto border border-archive-line bg-archive-panel"
           >
             <header className="flex items-center justify-between border-b border-archive-line px-4 py-2.5">
               <div>
@@ -192,7 +201,8 @@ function LocalAnomalyModal({ open, onClose }: { open: boolean; onClose: () => vo
           </motion.div>
         </motion.div>
       ) : null}
-    </AnimatePresence>
+    </AnimatePresence>,
+    portalTarget
   );
 }
 

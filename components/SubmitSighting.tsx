@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import type { Agency, Sighting, SightingType } from "@/lib/types";
 import { saveUserSubmission } from "@/lib/userSightings";
 
@@ -162,7 +163,14 @@ function SubmitModal({ open, onClose }: { open: boolean; onClose: () => void }) 
     }
   };
 
-  return (
+  const [portalTarget, setPortalTarget] = useState<Element | null>(null);
+  useEffect(() => {
+    setPortalTarget(document.body);
+  }, []);
+
+  if (!portalTarget) return null;
+
+  return createPortal(
     <AnimatePresence>
       {open ? (
         <motion.div
@@ -172,7 +180,7 @@ function SubmitModal({ open, onClose }: { open: boolean; onClose: () => void }) 
           exit={{ opacity: 0 }}
           transition={{ duration: 0.18 }}
           onClick={onClose}
-          className="absolute inset-0 z-40 flex items-center justify-center bg-archive-void/80 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-archive-void/85 px-4 py-6 backdrop-blur-sm"
         >
           <motion.div
             key="submit-modal"
@@ -181,7 +189,7 @@ function SubmitModal({ open, onClose }: { open: boolean; onClose: () => void }) 
             exit={{ y: 6, opacity: 0, scale: 0.98 }}
             transition={{ duration: 0.24, ease: [0.7, 0, 0.3, 1] }}
             onClick={(e) => e.stopPropagation()}
-            className="mx-4 max-h-[88vh] w-full max-w-lg overflow-y-auto border border-archive-line bg-archive-panel"
+            className="max-h-[88vh] w-full max-w-lg overflow-y-auto border border-archive-line bg-archive-panel"
             role="dialog"
             aria-label="Submit a sighting"
           >
@@ -220,7 +228,8 @@ function SubmitModal({ open, onClose }: { open: boolean; onClose: () => void }) 
           </motion.div>
         </motion.div>
       ) : null}
-    </AnimatePresence>
+    </AnimatePresence>,
+    portalTarget
   );
 }
 

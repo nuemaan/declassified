@@ -5,7 +5,7 @@ import manifestJson from "@/data/manifest.json";
 // JSON imports are typed at build time — cast through unknown so we can keep
 // the JSON file authoritative while still getting full type safety in callers.
 export const sightings: Sighting[] = sightingsJson as unknown as Sighting[];
-export const manifest: ArchiveManifest = manifestJson as ArchiveManifest;
+export const manifest: ArchiveManifest = manifestJson as unknown as ArchiveManifest;
 
 const byId = new Map(sightings.map((s) => [s.id, s] as const));
 
