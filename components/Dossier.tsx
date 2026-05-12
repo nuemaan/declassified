@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import { AIAnalyst } from "./AIAnalyst";
+import { ShareCase } from "./ShareCase";
 import { audio } from "@/lib/audio";
 import { redactionsFor, segmentDescription } from "@/lib/redactions";
 import { getSighting } from "@/lib/data";
@@ -134,6 +135,10 @@ export function Dossier() {
 
             <Section title="Connections">
               <ConnectionsList sightingId={sighting.id} onJump={(id) => setSelected(id)} />
+            </Section>
+
+            <Section title="Share">
+              <ShareCase sighting={sighting} />
             </Section>
 
             <div className="mt-6 border-t border-archive-line pt-3 text-[9px] uppercase leading-relaxed tracking-wider2 text-archive-paperDim/70">

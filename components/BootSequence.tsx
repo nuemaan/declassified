@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import { audio } from "@/lib/audio";
+import { manifest } from "@/lib/data";
 
 interface Line {
   text: string;
@@ -52,7 +53,7 @@ export function BootSequence() {
   const lines: Line[] = useMemo(
     () => [
       { text: "> INITIATING DECLASSIFIED ARCHIVE...", startAt: 100, cps: 90 },
-      { text: "> ACCESSING 162 FILES...", startAt: 700, cps: 90 },
+      { text: `> ACCESSING ${manifest.count} FILES...`, startAt: 700, cps: 90 },
       { text: `> CASE #${caseId}`, startAt: 1300, cps: 90, className: "text-amber" },
       { text: "> ESTABLISHING CONNECTION...", startAt: 1900, cps: 90 },
       { text: "> ACCESS GRANTED", startAt: 2700, cps: 60, className: "text-phosphor shadow-phosphor" },

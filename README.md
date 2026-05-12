@@ -2,13 +2,13 @@
 
 > *Play this while you read* → [The X-Files Theme · Mark Snow](https://www.youtube.com/watch?v=lpqAIHvN5Ow)
 
-An interactive 3D visualization of 162 declassified UAP files. The user is the investigator. The site boots up like a 1970s government terminal, then drops them onto a pulsing globe of sightings to explore, declassify, and connect.
+An interactive 3D visualization of 158 declassified UAP files released by the Pentagon at [war.gov/ufo](https://www.war.gov/ufo/). The user is the investigator. The site boots up like a 1970s government terminal, then drops them onto a pulsing globe of sightings to explore, declassify, and connect.
 
 ![Hero card — Iraq MISREP, 2024-09-20 (DC-2024-0064)](public/screenshots/hero-iraq-misrep.png)
 
 ## What it does
 
-- **Cinematic boot** — terminal-style reveal: `INITIATING ARCHIVE…` / `ACCESSING 162 FILES…` / `CASE #YYYY-XX-NNNN` / `ESTABLISHING CONNECTION…` / `ACCESS GRANTED`. Skippable, suppressed for the rest of the session.
+- **Cinematic boot** — terminal-style reveal: `INITIATING ARCHIVE…` / `ACCESSING 158 FILES…` / `CASE #YYYY-XX-NNNN` / `ESTABLISHING CONNECTION…` / `ACCESS GRANTED`. Skippable, suppressed for the rest of the session.
 - **3D globe** — `react-globe.gl` with a dark-Earth texture, cyan graticule, atmosphere rim. Each sighting pulses in its strangeness color: phosphor (routine), amber (unresolved), red-alert (high strangeness). Marker size encodes duration, glow encodes confidence.
 - **Dossier panel** — slide-in on click. Typewriter reveal of the report with inline `[REDACTED]` bars that tear open on click and flash phosphor as the text underneath fades in. Per-sighting hooks for the iconic cases.
 - **Timeline 1947 → 2026** — year-bucketed histogram + draggable playhead + PLAY mode that scrubs cinematically at 7 years/sec. Markers appear and fade as you cross their dates.

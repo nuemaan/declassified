@@ -20,7 +20,7 @@ export interface NearestResult {
   distanceKm: number;
 }
 
-/** Linear scan — 162 records, no spatial index needed. */
+/** Linear scan — ~160 records, no spatial index needed. */
 export function nearestSighting(
   origin: { lat: number; lng: number },
   sightings: Sighting[]
