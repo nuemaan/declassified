@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-05-11T13:58:24.167Z",
-  "source": "mock",
-  "count": 162,
+  "generatedAt": "2026-05-12T11:04:56.436Z",
+  "source": "live",
+  "count": 158,
   "dateRange": [
-    "1947-01-14",
-    "2026-03-01"
+    "1945-03-18",
+    "2026-05-08"
   ],
-  "seed": 1145261124
+  "provenance": {
+    "fetchedAt": "2026-05-12T10:58:31.538Z",
+    "requestedUrl": "https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-csv.csv",
+    "resolvedUrl": "http://web.archive.org/web/20260512032210/https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-csv.csv"
+  }
 }

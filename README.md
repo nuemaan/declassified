@@ -48,7 +48,7 @@ npm run data:embed    # cosine similarity — Voyage AI if VOYAGE_API_KEY set, e
 npm run data:build    # all four stages in sequence
 ```
 
-The default source is `https://war.gov/info` (the brief's release URL). Override with `DECLASSIFIED_SOURCE_URL=https://example.gov/index`. Each stage handles partial inputs gracefully — if scrape's source 403s, the script exits with a helpful message and downstream stages still run against whatever already sits in `data/raw/`.
+The default source is `https://war.gov/ufo` (the brief's release URL). Override with `DECLASSIFIED_SOURCE_URL=https://example.gov/index`. Each stage handles partial inputs gracefully — if scrape's source 403s, the script exits with a helpful message and downstream stages still run against whatever already sits in `data/raw/`.
 
 ## Run locally
 
@@ -107,4 +107,4 @@ MIT.
 
 ---
 
-**DATA SOURCE: war.gov/info · THIS IS A FAN PROJECT, NOT AFFILIATED WITH ANY GOVERNMENT.**
+**DATA SOURCE: war.gov/ufo · THIS IS A FAN PROJECT, NOT AFFILIATED WITH ANY GOVERNMENT.**

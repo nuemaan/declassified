@@ -21,20 +21,30 @@ export function strangenessScore(s: Pick<Sighting, "description" | "type" | "wit
   // Lexical heuristics — purely surface-level, no semantic claim.
   // Each match is +1; the strongest signatures match several at once.
   const STRANGE_TERMS = [
+    // Behavior / aerodynamics
     "right angle", "right-angle", "90-degree", "90 degree",
     "instant acceleration", "instantaneous", "instantly",
     "no visible propulsion", "no exhaust", "no sonic boom",
     "transmedium", "trans-medium", "submerged",
-    "metallic sphere", "tic tac", "tic-tac",
-    "hovered silently", "silently",
-    "vanished", "disappeared",
-    "weapons", "instrument failure",
-    "flir", "gimbal",
-    "lock-on", "lock on", "radar lock",
+    "hovered silently", "silently", "silent",
+    "vanished", "disappeared", "fast mover", "high speed",
+    // Iconic shapes
+    "metallic sphere", "tic tac", "tic-tac", "saucer", "flying disc", "flying saucer",
+    "orb", "spheres", "egg-shaped", "cigar-shaped",
     "triangular", "v-shaped", "delta-shaped", "boomerang",
-    "carrier strike", "fighter", "f-16", "f/a-18", "interceptor",
-    "drone swarm", "swarm",
-    "no transponder",
+    // Sensor + encounter
+    "weapons", "instrument failure",
+    "flir", "gimbal", "go fast",
+    "lock-on", "lock on", "radar lock", "radar tracked", "radar contact",
+    "no transponder", "no flight plan",
+    "near-miss", "near miss", "interception", "intercepted", "intercept",
+    "incursion", "restricted airspace", "no-fly",
+    // Military airframes that show up in encounters
+    "carrier strike", "fighter", "f-16", "f/a-18", "f-22", "f-35", "interceptor",
+    "mq-9", "uas", "drone swarm", "swarm", "unmanned",
+    // Real-corpus terms that indicate an actual operational case (vs. routine paperwork)
+    "mission report", "misrep", "encounter", "incident report",
+    "intelligence report", "operational",
   ];
   for (const t of STRANGE_TERMS) if (desc.includes(t)) score += 1;
 
@@ -48,12 +58,16 @@ export function strangenessScore(s: Pick<Sighting, "description" | "type" | "wit
 
 /**
  * Map strangeness → palette bucket used by the globe marker layer.
- * - 0–4  : phosphor (mostly explained / routine report)
- * - 5–7  : amber   (unresolved)
- * - 8–10 : redalert (high strangeness)
+ * - 0–3 : phosphor (mostly explained / routine report)
+ * - 4–5 : amber   (unresolved)
+ * - 6+  : redalert (high strangeness — operationally interesting)
+ *
+ * Thresholds were chosen to give a usable spread across the live war.gov/ufo
+ * release: most cases are routine FOIA-style filings; a meaningful minority
+ * are real operational encounters that score 6+.
  */
 export function strangenessBucket(score: number): "phosphor" | "amber" | "redalert" {
-  if (score <= 4) return "phosphor";
-  if (score <= 7) return "amber";
+  if (score <= 3) return "phosphor";
+  if (score <= 5) return "amber";
   return "redalert";
 }

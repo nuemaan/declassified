@@ -75,7 +75,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="pointer-events-none absolute inset-x-0 bottom-3 z-20 px-6 text-center text-[10px] uppercase tracking-wider2 text-archive-paperDim/70 mono-tight">
-        DATA SOURCE: war.gov/info &nbsp;•&nbsp; THIS IS A FAN PROJECT, NOT AFFILIATED WITH ANY GOVERNMENT.
+        DATA SOURCE: war.gov/ufo &nbsp;•&nbsp; THIS IS A FAN PROJECT, NOT AFFILIATED WITH ANY GOVERNMENT.
       </footer>
     </main>
   );

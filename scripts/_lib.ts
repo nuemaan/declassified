@@ -15,7 +15,7 @@ export const RAW_FILES_DIR = resolve(RAW_DIR, "files");
 export const RAW_INDEX_PATH = resolve(RAW_DIR, "index.json");
 export const EXTRACTED_DIR = resolve(DATA_DIR, "extracted");
 
-export const DEFAULT_SOURCE_URL = "https://war.gov/info";
+export const DEFAULT_SOURCE_URL = "https://www.war.gov/ufo/";
 export const sourceUrl = (): string =>
   process.env.DECLASSIFIED_SOURCE_URL?.trim() || DEFAULT_SOURCE_URL;
 
