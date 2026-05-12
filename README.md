@@ -4,7 +4,7 @@
 
 An interactive 3D visualization of 162 declassified UAP files. The user is the investigator. The site boots up like a 1970s government terminal, then drops them onto a pulsing globe of sightings to explore, declassify, and connect.
 
-![Hero card — Nimitz tic-tac (DC-2004-0117)](public/screenshots/hero-nimitz.png)
+![Hero card — Iraq MISREP, 2024-09-20 (DC-2024-0064)](public/screenshots/hero-iraq-misrep.png)
 
 ## What it does
 
@@ -19,26 +19,28 @@ An interactive 3D visualization of 162 declassified UAP files. The user is the i
 - **Filter rail** — left-edge slide-in, multi-axis filtering by agency / sensor / strangeness. Live `N / total` count, composes with timeline and Connections.
 - **User submissions** — submit a sighting → Claude moderation → if approved, lands on the globe with a `[USER-SUBMITTED]` tag. Stored only in your browser.
 
-## What's actually interesting in this dataset
+## What's actually in this dataset
 
-A handful of cases that anchor the curation. Open each on the live site to read the dossier.
+This is the **real Pentagon release**: 158 records from the May 8 2026 batch at [war.gov/ufo](https://www.war.gov/ufo/). Descriptions, agencies, dates, and PDF links are pulled verbatim from the source CSV — no paraphrasing. Six worth opening first:
 
-| Case | Year | Location | Why it lands |
+| Case | Year | Agency | Why it lands |
 |---|---|---|---|
-| [`DC-1947-0003`](public/screenshots/og-rainier.png) | 1947 | Mount Rainier, WA | Kenneth Arnold. The report that coined "flying saucer". |
-| [`DC-1976-0060`](public/screenshots/og-tehran.png) | 1976 | Tehran | Two F-4 Phantoms reportedly lost weapons systems on intercept. The DIA memo characterized it as a classic. |
-| [`DC-1986-0082`](public/screenshots/og-anchorage.png) | 1986 | Anchorage, AK | JAL Cargo 1628. Captain Terauchi described an object "four times the size of a 747". FAA released the radar tapes. |
-| [`DC-1989-0087`](public/screenshots/og-belgium.png) | 1989 | Eupen, Belgium | The Belgian wave: gendarmes reporting silent triangles; F-16 lock-ons over Brussels. |
-| [`DC-1997-0102`](public/screenshots/og-phoenix.png) | 1997 | Phoenix, AZ | A V-shaped formation a mile wide, drifting silently south. Governor Symington confirmed seeing it. |
-| [`DC-2004-0117`](public/screenshots/hero-nimitz.png) | 2004 | Off San Clemente, CA | FLIR1: the tic-tac. F/A-18 + USS Princeton SPY-1 radar. The case that re-opened the conversation. |
+| [`DC-2024-0064`](public/screenshots/hero-iraq-misrep.png) | 2024 | DoD / CENTCOM | The top-strangeness real case. A Mission Report (MISREP) on a UAP encounter in Iraq, score 7. |
+| [`DC-2025-0100`](public/screenshots/og-fbi-302.png) | 2025 | FBI | An FBI 302 interview with a senior US intelligence official giving a firsthand UAP encounter account. |
+| [`DC-2026-0102`](public/screenshots/og-fbi-vault.png) | 1947–68 | FBI | Case file 62-HQ-83894 — investigative records, eyewitness testimony, photographic evidence from Oak Ridge, and technical proposals on propulsion. |
+| [`DC-1969-0013`](public/screenshots/og-apollo-12.png) | 1969 | NASA | Apollo 12. The fourth crewed mission to the Moon. |
+| [`DC-1965-0011`](public/screenshots/og-gemini-7.png) | 1965 | NASA | Gemini 7 air-to-ground transcript. Borman & Lovell, in low Earth orbit. |
+| [`DC-1985-0025`](public/screenshots/og-png-cable.png) | 1985 | State | Diplomatic cable from the U.S. Embassy in Port Moresby, Papua New Guinea, to USCINCPAC. |
 
-Every case is rendered server-side at `/sighting/[id]` with a `next/og` share card. Those PNGs above are produced live by the same route.
+Every case is rendered server-side at `/sighting/[id]` with a `next/og` share card. The PNGs above are produced live by the same route. Each record also keeps the actual war.gov PDF URL on `mediaUrl` so future versions can link straight to the source document.
 
 ## Tech
 
 Next.js 14 (App Router) · TypeScript · Tailwind · `react-globe.gl` · Framer Motion · Zustand · WebAudio (synthesized in-browser, no audio files) · `@anthropic-ai/sdk` (Claude `sonnet-4-6` via `tool_use`) · `next/og` (1200×630 share cards).
 
-The shipped dataset is a hand-curated mock (`data/sightings.json`, marked `MOCK` in the UI). The real-source pipeline is now fully wired in [scripts/](scripts/):
+**The shipped dataset is now live** — 158 real records from the May 8 2026 release, ingested via the pipeline below. The UI shows `DATASET · LIVE`. The hand-curated mock used during development is still available via `npm run data:mock`.
+
+Pipeline ([scripts/](scripts/)):
 
 ```bash
 npm run data:scrape   # crawl an index page, download artifacts → data/raw/
@@ -48,7 +50,7 @@ npm run data:embed    # cosine similarity — Voyage AI if VOYAGE_API_KEY set, e
 npm run data:build    # all four stages in sequence
 ```
 
-The default source is `https://war.gov/ufo` (the brief's release URL). Override with `DECLASSIFIED_SOURCE_URL=https://example.gov/index`. Each stage handles partial inputs gracefully — if scrape's source 403s, the script exits with a helpful message and downstream stages still run against whatever already sits in `data/raw/`.
+Default source is the inline CSV at `https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-csv.csv` (linked from [war.gov/ufo](https://www.war.gov/ufo/)). Scrape falls back to the Wayback Machine snapshot of that URL when the live origin returns Akamai 403 (which it currently does for non-browser clients). Override with `DECLASSIFIED_SOURCE_URL=…` for any future re-release. Records' real PDF URLs from the source CSV are preserved on each sighting's `mediaUrl` field.
 
 ## Run locally
 
