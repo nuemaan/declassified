@@ -38,7 +38,17 @@ Every case is rendered server-side at `/sighting/[id]` with a `next/og` share ca
 
 Next.js 14 (App Router) · TypeScript · Tailwind · `react-globe.gl` · Framer Motion · Zustand · WebAudio (synthesized in-browser, no audio files) · `@anthropic-ai/sdk` (Claude `sonnet-4-6` via `tool_use`) · `next/og` (1200×630 share cards).
 
-The dataset is currently a hand-curated mock (`data/sightings.json`, marked `MOCK` in the UI). The real-source pipeline (`scripts/scrape.ts` → `extract.ts` → `geocode.ts` → `embed.ts`) is wired and typed; when a public release index is available it drops in unchanged.
+The shipped dataset is a hand-curated mock (`data/sightings.json`, marked `MOCK` in the UI). The real-source pipeline is now fully wired in [scripts/](scripts/):
+
+```bash
+npm run data:scrape   # crawl an index page, download artifacts → data/raw/
+npm run data:extract  # ask Claude to extract Sighting records from each file
+npm run data:geocode  # resolve approximate locations via Nominatim
+npm run data:embed    # cosine similarity — Voyage AI if VOYAGE_API_KEY set, else TF-IDF
+npm run data:build    # all four stages in sequence
+```
+
+The default source is `https://war.gov/info` (the brief's release URL). Override with `DECLASSIFIED_SOURCE_URL=https://example.gov/index`. Each stage handles partial inputs gracefully — if scrape's source 403s, the script exits with a helpful message and downstream stages still run against whatever already sits in `data/raw/`.
 
 ## Run locally
 
@@ -80,7 +90,7 @@ The repo's history is the build order — one commit per step:
 4. `dossier panel + redaction reveal`
 5. `timeline scrubber 1947→2026`
 6. `boot sequence + synthesized audio`
-7. *parked — pending publication of the source* (real scrape pipeline)
+7. `real scrape pipeline` — `scrape.ts` (cheerio), `extract.ts` (Claude PDF/image extraction with `tool_use`), `geocode.ts` (Nominatim, 1 req/sec), `embed.ts` (Voyage AI or TF-IDF fallback). Source URL pluggable via `DECLASSIFIED_SOURCE_URL`.
 8. `local anomaly + OG share cards`
 9. `AI analyst with BYO-key fallback`
 10. `connections mode — glowing arcs between similar cases`

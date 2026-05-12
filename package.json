@@ -13,10 +13,12 @@
     "data:scrape": "tsx scripts/scrape.ts",
     "data:extract": "tsx scripts/extract.ts",
     "data:geocode": "tsx scripts/geocode.ts",
-    "data:embed": "tsx scripts/embed.ts"
+    "data:embed": "tsx scripts/embed.ts",
+    "data:build": "tsx scripts/build-dataset.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "0.32.1",
+    "cheerio": "1.0.0",
     "next": "14.2.35",
     "react": "18.3.1",
     "react-dom": "18.3.1",
