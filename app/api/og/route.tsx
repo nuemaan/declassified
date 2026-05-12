@@ -37,9 +37,11 @@ function col(extra: React.CSSProperties = {}): React.CSSProperties {
 
 export async function GET(req: Request) {
   try {
-    const { searchParams } = new URL(req.url);
+    const reqUrl = new URL(req.url);
+    const { searchParams } = reqUrl;
     const id = searchParams.get("id") ?? "";
     const investigator = (searchParams.get("i") ?? "").slice(0, 32).toUpperCase();
+    const archiveHost = reqUrl.host.replace(/^www\./, "");
     const s = getSighting(id);
 
     if (!s) {
@@ -152,7 +154,7 @@ export async function GET(req: Request) {
                 ARCHIVE
               </div>
               <div style={{ display: "flex", fontSize: 22, color: "#F0EDE5", marginTop: 4 }}>
-                declassified.local
+                {archiveHost}
               </div>
             </div>
           </div>
