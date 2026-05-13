@@ -5,12 +5,17 @@ import { useEffect, useMemo, useState } from "react";
 import { getAllSightings } from "@/lib/data";
 import { useArchive } from "@/lib/store";
 import { strangenessBucket } from "@/lib/strangeness";
-import type { Agency, Sighting, SightingType } from "@/lib/types";
+import type { Agency, Sighting, SightingSource, SightingType } from "@/lib/types";
 import { loadUserSubmissions } from "@/lib/userSightings";
 import { SubmitSightingButton } from "./SubmitSighting";
 
 const AGENCIES: Agency[] = ["FBI", "DoD", "NASA", "State", "Other"];
 const TYPES: SightingType[] = ["visual", "radar", "multi-sensor", "infrared", "photographic"];
+const SOURCES: Array<{ id: SightingSource; label: string; description: string }> = [
+  { id: "pentagon-2026", label: "Pentagon · 2026", description: "war.gov/ufo release" },
+  { id: "blue-book", label: "Blue Book", description: "USAF 1947–69 (curated)" },
+  { id: "user-submitted", label: "User", description: "Local submissions" },
+];
 const BUCKETS: Array<{ id: "phosphor" | "amber" | "redalert"; label: string; tone: string }> = [
   { id: "phosphor", label: "Routine / Explained", tone: "bg-phosphor shadow-phosphor" },
   { id: "amber", label: "Unresolved", tone: "bg-amber shadow-amber" },
@@ -40,9 +45,11 @@ export function FilterRail() {
   const agencyFilter = useArchive((s) => s.agencyFilter);
   const typeFilter = useArchive((s) => s.typeFilter);
   const bucketFilter = useArchive((s) => s.bucketFilter);
+  const sourceFilter = useArchive((s) => s.sourceFilter);
   const setAgencyFilter = useArchive((s) => s.setAgencyFilter);
   const setTypeFilter = useArchive((s) => s.setTypeFilter);
   const setBucketFilter = useArchive((s) => s.setBucketFilter);
+  const setSourceFilter = useArchive((s) => s.setSourceFilter);
   const resetFilters = useArchive((s) => s.resetFilters);
   const revealedThrough = useArchive((s) => s.revealedThrough);
 
@@ -64,13 +71,17 @@ export function FilterRail() {
       if (agencyFilter !== null && !agencyFilter.has(s.agency)) return false;
       if (typeFilter !== null && !typeFilter.has(s.type)) return false;
       if (bucketFilter !== null && !bucketFilter.has(strangenessBucket(s.strangenessScore))) return false;
+      if (sourceFilter !== null) {
+        const src = s.source ?? (s.userSubmitted ? "user-submitted" : "pentagon-2026");
+        if (!sourceFilter.has(src)) return false;
+      }
       return true;
     });
     return { visible: filtered.length, total: all.length };
-  }, [agencyFilter, typeFilter, bucketFilter, revealedThrough, userSightings]);
+  }, [agencyFilter, typeFilter, bucketFilter, sourceFilter, revealedThrough, userSightings]);
 
   const anyActive =
-    agencyFilter !== null || typeFilter !== null || bucketFilter !== null;
+    agencyFilter !== null || typeFilter !== null || bucketFilter !== null || sourceFilter !== null;
 
   return (
     <>
@@ -161,6 +172,28 @@ export function FilterRail() {
                 </div>
               </Section>
 
+              <Section label="Source">
+                <div className="space-y-1.5">
+                  {SOURCES.map((src) => (
+                    <SourceRow
+                      key={src.id}
+                      label={src.label}
+                      description={src.description}
+                      active={isActive(sourceFilter, src.id)}
+                      onToggle={() =>
+                        setSourceFilter(
+                          toggleSetMembership(
+                            sourceFilter,
+                            SOURCES.map((s) => s.id),
+                            src.id
+                          )
+                        )
+                      }
+                    />
+                  ))}
+                </div>
+              </Section>
+
               <SubmitSightingButton userCount={userSightings.length} />
             </div>
           </motion.aside>
@@ -222,6 +255,36 @@ function BucketRow({
     >
       <span className={`inline-block h-2 w-2 rounded-full ${tone} ${active ? "" : "opacity-30"}`} aria-hidden />
       <span>{label}</span>
+    </button>
+  );
+}
+
+function SourceRow({
+  label,
+  description,
+  active,
+  onToggle,
+}: {
+  label: string;
+  description: string;
+  active: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onToggle}
+      aria-pressed={active}
+      className={`flex w-full items-start justify-between gap-2 border px-2 py-1.5 text-[10px] uppercase tracking-wider2 transition-colors ${
+        active
+          ? "border-archive-paper/40 bg-archive-void/40 text-archive-paper"
+          : "border-archive-line bg-archive-void/20 text-archive-paperDim/50"
+      }`}
+    >
+      <span className="text-left">{label}</span>
+      <span className={`text-right ${active ? "text-archive-paperDim/80" : "text-archive-paperDim/40"}`}>
+        {description}
+      </span>
     </button>
   );
 }

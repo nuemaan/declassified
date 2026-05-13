@@ -14,7 +14,9 @@
     "data:extract": "tsx scripts/extract.ts",
     "data:geocode": "tsx scripts/geocode.ts",
     "data:embed": "tsx scripts/embed.ts",
-    "data:build": "tsx scripts/build-dataset.ts"
+    "data:build": "tsx scripts/build-dataset.ts",
+    "data:bluebook-curated": "tsx scripts/bluebook-curated.ts",
+    "data:ingest-bluebook": "tsx scripts/ingest-bluebook.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "0.32.1",

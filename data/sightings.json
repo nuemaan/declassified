@@ -16,7 +16,32 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "331_120752_Numeric_Files_1944–1945_37153_German_Armament_Equipment_Documents",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/331_120752_numeric_files_1944–1945_37153_german_armament_equipment_documents.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/331_120752_numeric_files_1944–1945_37153_german_armament_equipment_documents.pdf",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-001",
+    "date": "1947-06-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Mount Rainier, WA",
+      "lat": 46.8523,
+      "lng": -121.7603,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Civilian pilot Kenneth Arnold reported nine bright, disc-shaped objects flying in a chained formation near Mount Rainier. He clocked their transit between two peaks and estimated speeds over 1,200 mph. Project SIGN — Blue Book's predecessor — opened a file the next month.",
+    "witnesses": [
+      "Kenneth Arnold"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.65,
+    "durationMinutes": 3,
+    "sourceFile": "bluebook/SIGN file (pre-Grudge)",
+    "source": "blue-book",
+    "hook": "The report that coined 'flying saucer'."
   },
   {
     "id": "DC-1947-0002",
@@ -35,7 +60,33 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "18_100754_ General 1946-7_Vol_2",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/18_100754_ general 1946-7_vol_2.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/18_100754_ general 1946-7_vol_2.pdf",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-002",
+    "date": "1948-01-07",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Fort Knox, KY",
+      "lat": 37.891,
+      "lng": -85.9637,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Captain Thomas Mantell of the Kentucky Air National Guard pursued a large metallic object reported over Godman Field. His F-51 was found wrecked after he reportedly climbed past 25,000 ft without oxygen. Blue Book later attributed the encounter to a Skyhook balloon, a determination still disputed.",
+    "witnesses": [
+      "Capt. Thomas Mantell",
+      "Godman Field tower"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.65,
+    "durationMinutes": 35,
+    "sourceFile": "bluebook/Case 33",
+    "source": "blue-book",
+    "hook": "The first pilot fatality during a UAP intercept."
   },
   {
     "id": "DC-1948-0003",
@@ -54,7 +105,58 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "18_6369445_General_1948_Vol_1",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/18_6369445_general_1948_vol_1.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/18_6369445_general_1948_vol_1.pdf",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-003",
+    "date": "1948-07-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Montgomery, AL",
+      "lat": 32.3792,
+      "lng": -86.3077,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Eastern Air Lines pilots Clarence Chiles and John Whitted reported a cigar-shaped craft with double rows of windows passing within feet of their DC-3. The object emitted a blue exhaust and ascended at extreme speed. Blue Book classified the case 'unidentified'.",
+    "witnesses": [
+      "Capt. Clarence Chiles",
+      "John Whitted"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.65,
+    "durationMinutes": 1,
+    "sourceFile": "bluebook/Case 144",
+    "source": "blue-book",
+    "hook": "Near-miss with a windowed cigar at 5,000 feet."
+  },
+  {
+    "id": "BB-CUR-012",
+    "date": "1948-10-01",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Fargo, ND",
+      "lat": 46.8772,
+      "lng": -96.7898,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "ANG Lieutenant George Gorman engaged in a 27-minute aerial dogfight with a small luminous object over Fargo airport. The object outmaneuvered his F-51 repeatedly. Blue Book recorded the case but never explained the maneuvers.",
+    "witnesses": [
+      "Lt. George Gorman",
+      "Hector Field tower"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.65,
+    "durationMinutes": 27,
+    "sourceFile": "bluebook/Case 172 (Gorman dogfight)",
+    "source": "blue-book",
+    "hook": "27 minutes of unequal-energy maneuvering against an F-51."
   },
   {
     "id": "DC-1948-0004",
@@ -73,7 +175,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1950-0005",
@@ -92,7 +195,82 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "342_HS1-416511228_319.1 Flying Discs 1949",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/342_hs1-416511228_box186_319.1-flying-discs-1949.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/342_hs1-416511228_box186_319.1-flying-discs-1949.pdf",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-004",
+    "date": "1951-08-25",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Lubbock, TX",
+      "lat": 33.5779,
+      "lng": -101.8552,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Three Texas Tech professors, then dozens of additional witnesses, observed V-formations of blue-green lights crossing the night sky. Carl Hart Jr. photographed the formation. Blue Book initially attributed the lights to night-migrating plover but later listed the case as 'unknown'.",
+    "witnesses": [
+      "Texas Tech faculty",
+      "Carl Hart Jr."
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.65,
+    "durationMinutes": 8,
+    "sourceFile": "bluebook/Case 994 (Lubbock Lights)",
+    "source": "blue-book",
+    "hook": "Lights that the official explanation could not catch up to."
+  },
+  {
+    "id": "BB-CUR-006",
+    "date": "1952-07-02",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Tremonton, UT",
+      "lat": 41.7141,
+      "lng": -112.1655,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "U.S. Navy Chief Photographer Delbert Newhouse filmed approximately a dozen luminous objects maneuvering in formation over Tremonton, Utah. The Navy's Photo Interpretation Lab concluded the objects were 'self-luminous' and not birds or aircraft.",
+    "witnesses": [
+      "CWO Delbert Newhouse"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.65,
+    "durationMinutes": 1,
+    "sourceFile": "bluebook/Case 1501",
+    "source": "blue-book",
+    "hook": "Navy photo analysts: 'self-luminous, intelligently controlled'."
+  },
+  {
+    "id": "BB-CUR-005",
+    "date": "1952-07-19",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Washington, D.C.",
+      "lat": 38.8512,
+      "lng": -77.0402,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Air-traffic radars at Washington National and Andrews AFB tracked multiple unidentified targets over restricted airspace above the U.S. Capitol on consecutive Saturday nights. F-94 interceptors scrambled but could not close. Blue Book's eventual 'temperature inversion' verdict was disputed by the radar operators themselves.",
+    "witnesses": [
+      "ATC Washington National",
+      "Capt. S. Pierman"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.65,
+    "durationMinutes": 240,
+    "sourceFile": "bluebook/Cases 1488/1502",
+    "source": "blue-book",
+    "hook": "Radar contacts directly over the Capitol, twice."
   },
   {
     "id": "DC-1952-0006",
@@ -111,7 +289,58 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "59_64634_711.5612[7-2852",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/59_64634_711.5612[7-2852.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/59_64634_711.5612[7-2852.pdf",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-018",
+    "date": "1952-08-01",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Sault Ste. Marie, MI",
+      "lat": 46.4953,
+      "lng": -84.3454,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "An F-94 vectored to a radar return over Lake Superior reported being pursued and ultimately rammed by an unknown object. Witnesses included radar operators at Kinross AFB. The F-94 and both crew were lost.",
+    "witnesses": [
+      "Kinross AFB radar",
+      "civilian witnesses"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.65,
+    "durationMinutes": 8,
+    "sourceFile": "bluebook/Case 8413 (Kinross)",
+    "source": "blue-book",
+    "hook": "Radar return that ended with a missing F-94."
+  },
+  {
+    "id": "BB-CUR-013",
+    "date": "1953-08-12",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Ellsworth AFB, SD",
+      "lat": 44.145,
+      "lng": -103.1042,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Ground observers and ATC at Ellsworth AFB watched an object pace a vectored F-84 jet at over 600 mph. The jet's gunsight radar locked on the object before it accelerated away. Blue Book filed the case as 'unidentified'.",
+    "witnesses": [
+      "F-84 pilot",
+      "Ellsworth AFB tower"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.65,
+    "durationMinutes": 45,
+    "sourceFile": "bluebook/Case 2611 (Ellsworth)",
+    "source": "blue-book",
+    "hook": "Radar lock, then unequal acceleration."
   },
   {
     "id": "DC-1955-0007",
@@ -130,7 +359,84 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "341_110677_Numerical_File,_5-2500",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/341_110677_numerical_file_5-2500.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/341_110677_numerical_file_5-2500.pdf",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-014",
+    "date": "1956-08-13",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United Kingdom",
+      "region": "RAF Lakenheath, Suffolk",
+      "lat": 52.4093,
+      "lng": 0.5615,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "Multiple ground and airborne radars tracked fast-moving targets above RAF Lakenheath and RAF Bentwaters. A scrambled Venom interceptor reported being pursued by an object behind its tail. The Condon Committee called it 'the most puzzling case in the Blue Book files'.",
+    "witnesses": [
+      "Lakenheath GCA",
+      "Venom pilot"
+    ],
+    "strangenessScore": 5,
+    "confidence": 0.65,
+    "durationMinutes": 75,
+    "sourceFile": "bluebook/Case 4408 (Lakenheath-Bentwaters)",
+    "source": "blue-book",
+    "hook": "Venom intercepted, then pursued."
+  },
+  {
+    "id": "BB-CUR-007",
+    "date": "1957-07-17",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Gulf of Mexico (RB-47 incident)",
+      "lat": 30,
+      "lng": -90,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "An RB-47H electronic-warfare aircraft was tracked over the Gulf of Mexico by ground radar, intercepted visually by its crew, and shadowed for over a thousand miles across Texas and Louisiana. The encounter involved simultaneous visual, radar, and ECM-frequency contact.",
+    "witnesses": [
+      "Maj. Lewis Chase",
+      "Maj. Frank McClure",
+      "Capt. James McCoid"
+    ],
+    "strangenessScore": 6,
+    "confidence": 0.65,
+    "durationMinutes": 90,
+    "sourceFile": "bluebook/Case 4847 (RB-47)",
+    "source": "blue-book",
+    "hook": "Simultaneous visual + airborne radar + ground radar + ECM."
+  },
+  {
+    "id": "BB-CUR-011",
+    "date": "1957-11-02",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Levelland, TX",
+      "lat": 33.5874,
+      "lng": -102.378,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Within hours, a dozen separate motorists across Levelland, Texas reported a large luminous egg-shaped object near their vehicles, with simultaneous engine and headlight failures. Sheriff Weir Clem investigated personally and reported the object himself.",
+    "witnesses": [
+      "Sheriff Weir Clem",
+      "12 independent motorists"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.65,
+    "durationMinutes": 180,
+    "sourceFile": "bluebook/Case 5070 (Levelland)",
+    "source": "blue-book",
+    "hook": "Engines and headlights failing across twelve cars in one night."
   },
   {
     "id": "DC-1957-0008",
@@ -149,7 +455,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-101634279_100-DE-26505",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-101634279_100-de-26505.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-101634279_100-de-26505.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1958-0009",
@@ -169,7 +476,57 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-101634279_100-DE-18221_Serial_844",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-101634279_100-de-18221_serial_844.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-101634279_100-de-18221_serial_844.pdf",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-016",
+    "date": "1959-08-13",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Redmond, OR",
+      "lat": 44.2726,
+      "lng": -121.1739,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "multi-sensor",
+    "description": "FAA controllers at Redmond airport reported a stationary disc-shaped object that climbed vertically when six F-102 jets were scrambled to intercept. Radar at Klamath Falls AFS tracked the object simultaneously. Blue Book listed it 'unidentified'.",
+    "witnesses": [
+      "FAA Redmond ATC",
+      "F-102 pilots"
+    ],
+    "strangenessScore": 4,
+    "confidence": 0.65,
+    "durationMinutes": 70,
+    "sourceFile": "bluebook/Case 6649 (Redmond)",
+    "source": "blue-book",
+    "hook": "Stationary on radar, then vertical escape."
+  },
+  {
+    "id": "BB-CUR-020",
+    "date": "1961-04-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Eagle River, WI",
+      "lat": 45.9172,
+      "lng": -89.2436,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Joe Simonton, a chicken farmer, reported a silver disc landing on his property; three small humanoid figures aboard, who exchanged pancakes for water. Blue Book sampled the pancakes — lab analysis returned terrestrial wheat flour. The case file remains 'unknown'.",
+    "witnesses": [
+      "Joe Simonton"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.65,
+    "durationMinutes": 5,
+    "sourceFile": "bluebook/Case 7942 (Simonton pancakes)",
+    "source": "blue-book",
+    "hook": "Blue Book filed a chain-of-custody on three pancakes."
   },
   {
     "id": "DC-1963-0010",
@@ -188,7 +545,56 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "59_214434_SP 16 [7.18.1963]",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/59_214434_sp_16_[7.18.1963].pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/59_214434_sp_16_[7.18.1963].pdf",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-008",
+    "date": "1964-04-24",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Socorro, NM",
+      "lat": 34.0584,
+      "lng": -106.8914,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Police officer Lonnie Zamora reported witnessing a small egg-shaped craft on landing legs in a desert ravine, with two short-statured figures nearby. Physical traces — burned vegetation and depressions — were documented by Blue Book investigators. The case was retained as 'unknown'.",
+    "witnesses": [
+      "Officer Lonnie Zamora"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.65,
+    "durationMinutes": 5,
+    "sourceFile": "bluebook/Case 8766 (Socorro)",
+    "source": "blue-book",
+    "hook": "Police officer's testimony Blue Book never closed."
+  },
+  {
+    "id": "BB-CUR-010",
+    "date": "1965-08-03",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Maricopa, AZ",
+      "lat": 33.0581,
+      "lng": -112.0476,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Highway patrolman Rex Heflin photographed a hat-shaped metallic object passing over the Santa Ana Freeway. Multiple investigators including the Condon Committee analyzed the four Polaroid prints; their authenticity remains contested.",
+    "witnesses": [
+      "Rex Heflin"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.65,
+    "durationMinutes": 1,
+    "sourceFile": "bluebook/Heflin Photographs",
+    "source": "blue-book",
+    "hook": "Four Polaroids that the Condon Committee never settled."
   },
   {
     "id": "DC-1965-0011",
@@ -207,7 +613,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-D3, Gemini 7 Transcript, 1965",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/255_t_763_r1b_transcripts.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/255_t_763_r1b_transcripts.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1965-0012",
@@ -225,7 +632,83 @@
     "strangenessScore": 3,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "NASA-UAP-D3A, Gemini 7 Audio Excerpt, 1965"
+    "sourceFile": "NASA-UAP-D3A, Gemini 7 Audio Excerpt, 1965",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-019",
+    "date": "1965-12-09",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Kecksburg, PA",
+      "lat": 40.1734,
+      "lng": -79.4633,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Residents of Kecksburg, Pennsylvania reported a fireball descending and an acorn-shaped object grounded in nearby woods. Military personnel cordoned the area and reportedly removed an object on a flatbed. The Air Force account ('a meteor') has been contested for six decades.",
+    "witnesses": [
+      "Kecksburg residents",
+      "Reuters reporter J. Murphy"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.65,
+    "durationMinutes": 12,
+    "sourceFile": "bluebook/Case 9966 (Kecksburg)",
+    "source": "blue-book",
+    "hook": "Acorn in the woods, flatbed removal, six decades of FOIAs."
+  },
+  {
+    "id": "BB-CUR-009",
+    "date": "1966-03-20",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Dexter, MI",
+      "lat": 42.3389,
+      "lng": -83.8896,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Police officers and dozens of civilians in Dexter and Hillsdale, Michigan reported low-altitude luminous objects over swampland. J. Allen Hynek's 'swamp gas' explanation for Blue Book triggered public ridicule and a congressional hearing.",
+    "witnesses": [
+      "Washtenaw County deputies"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.65,
+    "durationMinutes": 25,
+    "sourceFile": "bluebook/Cases 10073/10074",
+    "source": "blue-book",
+    "hook": "The 'swamp gas' explanation that broke Blue Book's credibility."
+  },
+  {
+    "id": "BB-CUR-017",
+    "date": "1966-04-17",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Portage County, OH",
+      "lat": 41.1729,
+      "lng": -81.2371,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Deputies Dale Spaur and Wilbur Neff pursued a large luminous object across northeastern Ohio into Pennsylvania for 86 miles at speeds up to 105 mph. Officers from multiple jurisdictions joined the chase. Blue Book's 'satellite' explanation was widely rejected.",
+    "witnesses": [
+      "Dpty. Dale Spaur",
+      "Dpty. Wilbur Neff",
+      "PA state troopers"
+    ],
+    "strangenessScore": 3,
+    "confidence": 0.65,
+    "durationMinutes": 60,
+    "sourceFile": "bluebook/Case 10310 (Ravenna-Portage)",
+    "source": "blue-book",
+    "hook": "Five police cars in a multi-state pursuit at 100 mph."
   },
   {
     "id": "DC-1969-0013",
@@ -244,7 +727,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-D1, Apollo 12 Transcript, 1969",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d1-apollo-12-transcript-1969.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d1-apollo-12-transcript-1969.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1969-0014",
@@ -263,7 +747,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-D4, Apollo 11 Technical Crew Debriefing, 1969",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1969-0015",
@@ -282,7 +767,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-VM1, Apollo 12, 1969",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm1-apollo-12-1969.jpg"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm1-apollo-12-1969.jpg",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1969-0016",
@@ -301,7 +787,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-VM2, Apollo 12, 1969",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm2-apollo-12-1969.jpg"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm2-apollo-12-1969.jpg",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1969-0017",
@@ -320,7 +807,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-VM3, Apollo 12, 1969",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm3-apollo-12-1969.jpg"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm3-apollo-12-1969.jpg",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1969-0018",
@@ -339,7 +827,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-VM4, Apollo 12, 1969",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm4-apollo-12-1969.jpg"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm4-apollo-12-1969.jpg",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1969-0019",
@@ -358,7 +847,32 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-VM5, Apollo 12, 1969",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm5-apollo-12-1969.jpg"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm5-apollo-12-1969.jpg",
+    "source": "pentagon-2026"
+  },
+  {
+    "id": "BB-CUR-015",
+    "date": "1969-04-30",
+    "dateConfidence": "exact",
+    "location": {
+      "country": "United States",
+      "region": "Cleveland, OH (Blue Book closure date)",
+      "lat": 41.4993,
+      "lng": -81.6944,
+      "precision": "exact"
+    },
+    "agency": "DoD",
+    "type": "visual",
+    "description": "Project Blue Book formally terminated. Of 12,618 cases investigated since 1952, 701 remained classified 'unidentified'. The closure followed the Condon Committee report, which itself contained dozens of cases its own investigators could not resolve.",
+    "witnesses": [
+      "Secretary of the Air Force"
+    ],
+    "strangenessScore": 2,
+    "confidence": 0.65,
+    "durationMinutes": 0,
+    "sourceFile": "bluebook/Project termination announcement",
+    "source": "blue-book",
+    "hook": "12,618 investigated. 701 still unexplained on closing day."
   },
   {
     "id": "DC-1972-0020",
@@ -377,7 +891,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-D2, Apollo 17 Transcript, 1972",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d2-apollo-17-transcript-1972.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d2-apollo-17-transcript-1972.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1972-0021",
@@ -396,7 +911,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-VM6, Apollo 17, 1972",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm6-apollo-17-1972.jpg"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm6-apollo-17-1972.jpg",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1973-0022",
@@ -415,7 +931,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-D5, Apollo 17 Crew Debriefing for Science, 1973",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1973-0023",
@@ -434,7 +951,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-D6, Apollo 17 Technical Crew Debriefing, 1973",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1973-0024",
@@ -453,7 +971,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "NASA-UAP-D7, Skylab Techincal Crew Debriefing 1973",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d7-skylab-technical-crew-debriefing-1973.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d7-skylab-technical-crew-debriefing-1973.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1985-0025",
@@ -472,7 +991,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "State Department UAP Cable 1, Papua New Guinea, January 28, 1985",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dos-uap-d1-cable-1-papua-new-guinea-january-1985.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dos-uap-d1-cable-1-papua-new-guinea-january-1985.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1994-0026",
@@ -491,7 +1011,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "State Department UAP Cable 2, Kazakhstan, January 31, 1994",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dos-uap-d2-cable-2-kazakhstan-january-1994.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dos-uap-d2-cable-2-kazakhstan-january-1994.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-1996-0027",
@@ -510,7 +1031,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D48, Department of the Air Force Report, 1996",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d48-report-september-1996.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d48-report-september-1996.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2000-0028",
@@ -529,7 +1051,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D49, Launch Summary, Vandenberg AFB, 2000",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d49-launch-summary-february-2000.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d49-launch-summary-february-2000.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2001-0029",
@@ -548,7 +1071,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "State Department UAP Cable 3, Tbilisi, Georgia, October 30, 2001",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/059uap00011.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/059uap00011.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2003-0030",
@@ -567,7 +1091,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "State Department UAP Cable 5, Mexico, September 16, 2003",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/059uap00013.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/059uap00013.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2004-0031",
@@ -586,7 +1111,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "State Department UAP Cable 4, Ashgabat, Turkmenistan, November 5, 2004",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/059uap00012.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/059uap00012.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2016-0032",
@@ -605,7 +1131,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D55, Mission Report, Syria, November 2016",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d55-mission-report-syria-november-2016.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d55-mission-report-syria-november-2016.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0033",
@@ -624,7 +1151,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D38, Range Fouler Debrief, Middle East, May 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0034",
@@ -643,7 +1171,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D65, Mission Report, Arabian Gulf, July 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d65-mission-report-persian-gulf-july-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d65-mission-report-persian-gulf-july-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0035",
@@ -662,7 +1191,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D60, Mission Report, Arabian Gulf, August 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d60-mission-report-persian-gulf-august-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d60-mission-report-persian-gulf-august-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0036",
@@ -681,7 +1211,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D56, Range Fouler Debrief, Arabian Sea, August 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0037",
@@ -700,7 +1231,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D61, Mission Report, Arabian Gulf, August 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d61-mission-report-persian-gulf-august-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d61-mission-report-persian-gulf-august-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0038",
@@ -719,7 +1251,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D42, Range Fouler Debrief, Japan, 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d42-range-fouler-debrief-japan-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d42-range-fouler-debrief-japan-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0039",
@@ -738,7 +1271,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D57, Range Fouler Reporting Form, Gulf of Aden, September 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d57-mission-report-gulf-of-aden-september-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d57-mission-report-gulf-of-aden-september-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0040",
@@ -757,7 +1291,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D62, Mission Report, Strait of Hormuz, September 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d62-mission-report-strait-of-hormuz-september-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d62-mission-report-strait-of-hormuz-september-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0041",
@@ -776,7 +1311,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D63, Mission Report, Strait of Hormuz, October 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d63-mission-report-strait-of-hormuz-october-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d63-mission-report-strait-of-hormuz-october-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0042",
@@ -795,7 +1331,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D44, Range Fouler Reporting Form, Gulf of Aden, October 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0043",
@@ -814,7 +1351,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D58, Range Fouler Debrief, NA, October 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2020-0044",
@@ -833,7 +1371,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D64, Mission Report, Iran, November 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d64-mission-report-iran-november-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d64-mission-report-iran-november-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2022-0045",
@@ -852,7 +1391,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D10, Mission Report, Middle East, May 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2022-0046",
@@ -871,7 +1411,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D12, Mission Report, Iraq, May 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d12-mission-report-iraq-may-2022.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d12-mission-report-iraq-may-2022.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2022-0047",
@@ -890,7 +1431,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D14, Mission Report, Iraq, May 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d14-mission-report-iraq-may-2022.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d14-mission-report-iraq-may-2022.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2022-0048",
@@ -909,7 +1451,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D16, Mission Report, Syria, July 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d16-mission-report-syria-july-2022.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d16-mission-report-syria-july-2022.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2022-0049",
@@ -928,7 +1471,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D18, Mission Report, Iraq, December 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d18-mission-report-iraq-december-2022.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d18-mission-report-iraq-december-2022.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0050",
@@ -947,7 +1491,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "Western US Event",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/western_us_event_slides_5.08.2026.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/western_us_event_slides_5.08.2026.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0051",
@@ -966,7 +1511,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D19, Mission Report, Syria, February 21, 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d19-mission-report-syria-february-21-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d19-mission-report-syria-february-21-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0052",
@@ -985,7 +1531,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D20, Mission Report, Iraq, 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d20-mission-report-iraq-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d20-mission-report-iraq-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0053",
@@ -1004,7 +1551,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI September 2023 Sighting - Composite Sketch",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/2024-04-30-composite-sketch.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/2024-04-30-composite-sketch.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0054",
@@ -1023,7 +1571,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI September 2023 Sighting - Serial 3",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/serial 5 redacted_redacted.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/serial 5 redacted_redacted.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0055",
@@ -1042,7 +1591,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI September 2023 Sighting - Serial 4",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/serial-3_redacted.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/serial-3_redacted.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0056",
@@ -1061,7 +1611,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI September 2023 Sighting - Serial 5",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/serial-4-redacted_redacted.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/serial-4-redacted_redacted.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0057",
@@ -1080,7 +1631,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D33, Mission Report, Greece, October 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0058",
@@ -1099,7 +1651,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D35, Mission Report, Greece, October 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0059",
@@ -1118,7 +1671,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D23, Mission Report, United Arab Emirates, October 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2023-0060",
@@ -1137,7 +1691,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D74, Mission Report, Syria, November 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d74-mission-report-syria-november-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d74-mission-report-syria-november-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2024-0061",
@@ -1156,7 +1711,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D25, Mission Report, Greece, January 2024",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2024-0062",
@@ -1175,7 +1731,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D27, Mission Report, United Arab Emirates, October 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2024-0063",
@@ -1194,7 +1751,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D75, Mission Report, Gulf of Aden, July 2024",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2024-0064",
@@ -1213,7 +1771,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D28, Mission Report, Iraq, September 2024",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2024-0065",
@@ -1232,7 +1791,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D32, Mission Report, Syria, October 2024",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2024-0066",
@@ -1251,7 +1811,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D52, Email Correspondance, NA, August 2024",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d52-email-correspondance-na-august-2024.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d52-email-correspondance-na-august-2024.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0067",
@@ -1270,7 +1831,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D50, Email Correspondence, INDOPACOM, April 2025",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d50-email-correspondence-indopacom-april-2025.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d50-email-correspondence-indopacom-april-2025.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0068",
@@ -1289,7 +1851,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo A1",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a1.png"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a1.png",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0069",
@@ -1308,7 +1871,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo A2",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a2.png"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a2.png",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0070",
@@ -1327,7 +1891,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo A3",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a3.png"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a3.png",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0071",
@@ -1346,7 +1911,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo A4",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a4.png"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a4.png",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0072",
@@ -1365,7 +1931,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo A5",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a5.png"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a5.png",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0073",
@@ -1384,7 +1951,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo A6",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a6.png"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a6.png",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0074",
@@ -1403,7 +1971,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo A7",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a7.png"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a7.png",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0075",
@@ -1422,7 +1991,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo A8",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a8.png"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-a8.png",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0076",
@@ -1441,7 +2011,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B1",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b1.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b1.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0077",
@@ -1460,7 +2031,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B10",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b10.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b10.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0078",
@@ -1479,7 +2051,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B11",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b11.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b11.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0079",
@@ -1498,7 +2071,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B12",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b12.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b12.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0080",
@@ -1517,7 +2091,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B13",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b13.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b13.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0081",
@@ -1536,7 +2111,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B14",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b14.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b14.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0082",
@@ -1555,7 +2131,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B15",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b15.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b15.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0083",
@@ -1574,7 +2151,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B16",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b16.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b16.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0084",
@@ -1593,7 +2171,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B17",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b17.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b17.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0085",
@@ -1612,7 +2191,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B18",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b18.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b18.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0086",
@@ -1631,7 +2211,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B19",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b19.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b19.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0087",
@@ -1650,7 +2231,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B2",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b2.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b2.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0088",
@@ -1669,7 +2251,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B20",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b20.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b20.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0089",
@@ -1688,7 +2271,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B21",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b21.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b21.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0090",
@@ -1707,7 +2291,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B22",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b22.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b22.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0091",
@@ -1726,7 +2311,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B23",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b23.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b23.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0092",
@@ -1745,7 +2331,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B24",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b24.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b24.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0093",
@@ -1764,7 +2351,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B3",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b3.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b3.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0094",
@@ -1783,7 +2371,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B4",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b4.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b4.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0095",
@@ -1802,7 +2391,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B5",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b5.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b5.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0096",
@@ -1821,7 +2411,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B6",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b6.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b6.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0097",
@@ -1840,7 +2431,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B7",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b7.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b7.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0098",
@@ -1859,7 +2451,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B8",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b8.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b8.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0099",
@@ -1878,7 +2471,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "FBI Photo B9",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b9.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/fbi-photo-b9.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2025-0100",
@@ -1897,7 +2491,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "USPER Statement about UAP Sighting",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/usper-statement-redacted.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/usper-statement-redacted.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0101",
@@ -1916,7 +2511,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D51, Email Correspondence, Pacific Time Zone, March 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d51-email-correspondence-pacific-time-zone-march-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d51-email-correspondence-pacific-time-zone-march-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0102",
@@ -1935,7 +2531,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_10",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_10.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_10.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0103",
@@ -1954,7 +2551,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_2",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_2.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_2.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0104",
@@ -1973,7 +2571,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_3",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_3.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_3.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0105",
@@ -1992,7 +2591,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_4",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_4.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_4.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0106",
@@ -2011,7 +2611,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_5",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_5.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_5.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0107",
@@ -2030,7 +2631,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_6",
-    "mediaUrl": "N/A"
+    "mediaUrl": "N/A",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0108",
@@ -2049,7 +2651,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_7",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_7.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_7.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0109",
@@ -2068,7 +2671,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_9",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_9.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_9.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0110",
@@ -2087,7 +2691,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Serial_130",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_130.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_130.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0111",
@@ -2106,7 +2711,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Serial_153",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_153.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_153.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0112",
@@ -2125,7 +2731,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Serial_164",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_164.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_164.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0113",
@@ -2144,7 +2751,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Serial_220",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_220.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_220.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0114",
@@ -2163,7 +2771,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Serial_403",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_403.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_403.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0115",
@@ -2182,7 +2791,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Serial_438",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_438.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_438.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0116",
@@ -2201,7 +2811,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Serial_449",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_449.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_serial_449.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0117",
@@ -2220,7 +2831,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_SUB_A",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_sub_a.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_sub_a.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0118",
@@ -2239,7 +2851,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "255_413270_UFO's_and_Defense_What_Should_we_Prepare_For",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/255_413270_ufo's_and_defense_what_should_we_prepare_for.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/255_413270_ufo's_and_defense_what_should_we_prepare_for.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0119",
@@ -2258,7 +2871,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "38_143685_box_Incident_Summaries_101-172",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/38_143685_box7_incident_summaries_101-172.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/38_143685_box7_incident_summaries_101-172.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0120",
@@ -2277,7 +2891,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "38_143685_box_Incident_Summaries_173-233",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/38_143685_box7_incident_summaries_173-233.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/38_143685_box7_incident_summaries_173-233.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0121",
@@ -2296,7 +2911,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "38_143685_box7_Incident_Summaries_1-100",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/38_143685_box7_incident_summaries_1-100.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/38_143685_box7_incident_summaries_1-100.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0122",
@@ -2315,7 +2931,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_1",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_1.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_1.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0123",
@@ -2334,7 +2951,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "65_HS1-834228961_62-HQ-83894_Section_8",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_8.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/65_hs1-834228961_62-hq-83894_section_8.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0124",
@@ -2353,7 +2971,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D3, Mission Report, Arabian Gulf, 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d3-mission-report-arabian-gulf-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d3-mission-report-arabian-gulf-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0125",
@@ -2372,7 +2991,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D4, Mission Report, Arabian Gulf, 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d4-mission-report-arabian-gulf-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d4-mission-report-arabian-gulf-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0126",
@@ -2391,7 +3011,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D5, Mission Report, Arabian Gulf, 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d5-mission-report-arabian-gulf-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d5-mission-report-arabian-gulf-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0127",
@@ -2410,7 +3031,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D54, Mission Report, Mediterranean Sea, NA",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d54-mission-report-mediterranean-sea-na.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d54-mission-report-mediterranean-sea-na.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0128",
@@ -2429,7 +3051,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D6, Mission Report, Arabian Gulf, 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d6-mission-report-arabian-gulf-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d6-mission-report-arabian-gulf-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0129",
@@ -2448,7 +3071,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D7, Mission Report, Arabian Gulf, 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d7-mission-report-arabian-gulf-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d7-mission-report-arabian-gulf-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0130",
@@ -2467,7 +3091,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-D8, Mission Report, Djibouti, 2025",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d8-mission-report-djibouti-2025.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d8-mission-report-djibouti-2025.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0131",
@@ -2486,7 +3111,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR19, Unresolved UAP Report, Middle East, May 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0132",
@@ -2505,7 +3131,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR20, Unresolved UAP Report, Kuwait, May 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-pr20.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-pr20.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0133",
@@ -2524,7 +3151,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR21, Unresolved UAP Report, Iraq, May 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d14-mission-report-iraq-may-2022.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d14-mission-report-iraq-may-2022.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0134",
@@ -2543,7 +3171,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR22, Unresolved UAP Report, Syria, July 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d16-mission-report-syria-july-2022.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d16-mission-report-syria-july-2022.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0135",
@@ -2562,7 +3191,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR23, Unresolved UAP Report, Iraq, December 2022",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d18-mission-report-iraq-december-2022.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d18-mission-report-iraq-december-2022.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0136",
@@ -2581,7 +3211,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR26, Unresolved UAP Report, United Arab Emirates, October 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0137",
@@ -2600,7 +3231,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR27, Unresolved UAP Report, United Arab Emirates, October 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0138",
@@ -2618,7 +3250,8 @@
     "strangenessScore": 5,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR28, Unresolved UAP Report, Greece, January 2024"
+    "sourceFile": "DOW-UAP-PR28, Unresolved UAP Report, Greece, January 2024",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0139",
@@ -2636,7 +3269,8 @@
     "strangenessScore": 5,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR29, Unresolved UAP Report, United Arab Emirates, June 2024"
+    "sourceFile": "DOW-UAP-PR29, Unresolved UAP Report, United Arab Emirates, June 2024",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0140",
@@ -2655,7 +3289,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR31, Unresolved UAP Report, Syria, October 2024",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0141",
@@ -2674,7 +3309,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR32, Unresolved UAP Report, Syria, October 2024",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0142",
@@ -2693,7 +3329,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR33, Unresolved UAP Report, Syria, October 2024",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d32-mission-report,-syria-october-2024.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0143",
@@ -2712,7 +3349,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR34, Unresolved UAP Report, Greece, October 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0144",
@@ -2731,7 +3369,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR35, Unresolved UAP Report, Greece, October 2023",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0145",
@@ -2750,7 +3389,8 @@
     "confidence": 0.7,
     "durationMinutes": 0,
     "sourceFile": "DOW-UAP-PR36, Unresolved UAP Report, Middle East, May 2020",
-    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf"
+    "mediaUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0146",
@@ -2768,7 +3408,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR37, Unresolved UAP Report, Middle East, 2020"
+    "sourceFile": "DOW-UAP-PR37, Unresolved UAP Report, Middle East, 2020",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0147",
@@ -2786,7 +3427,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR38, Unresolved UAP Report, Middle East, 2013"
+    "sourceFile": "DOW-UAP-PR38, Unresolved UAP Report, Middle East, 2013",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0148",
@@ -2804,7 +3446,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR39, Unresolved UAP Report, Middle East, 2020"
+    "sourceFile": "DOW-UAP-PR39, Unresolved UAP Report, Middle East, 2020",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0149",
@@ -2822,7 +3465,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR40, Unresolved UAP Report, Middle East, 2020"
+    "sourceFile": "DOW-UAP-PR40, Unresolved UAP Report, Middle East, 2020",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0150",
@@ -2840,7 +3484,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR41, Unresolved UAP Report, Middle East, 2020"
+    "sourceFile": "DOW-UAP-PR41, Unresolved UAP Report, Middle East, 2020",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0151",
@@ -2858,7 +3503,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR42, Unresolved UAP Report, Middle East, 2020"
+    "sourceFile": "DOW-UAP-PR42, Unresolved UAP Report, Middle East, 2020",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0152",
@@ -2876,7 +3522,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR43, Unresolved UAP Report, Africa, 2025"
+    "sourceFile": "DOW-UAP-PR43, Unresolved UAP Report, Africa, 2025",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0153",
@@ -2894,7 +3541,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR44, Unresolved UAP Report, Middle East, 2020"
+    "sourceFile": "DOW-UAP-PR44, Unresolved UAP Report, Middle East, 2020",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0154",
@@ -2912,7 +3560,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR45, Unresolved UAP Report, Middle East, 2020"
+    "sourceFile": "DOW-UAP-PR45, Unresolved UAP Report, Middle East, 2020",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0155",
@@ -2930,7 +3579,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR46, Unresolved UAP Report, INDOPACOM, 2024"
+    "sourceFile": "DOW-UAP-PR46, Unresolved UAP Report, INDOPACOM, 2024",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0156",
@@ -2948,7 +3598,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR47, Unresolved UAP Report, INDOPACOM, 2023"
+    "sourceFile": "DOW-UAP-PR47, Unresolved UAP Report, INDOPACOM, 2023",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0157",
@@ -2966,7 +3617,8 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR48, Unresolved UAP Report, INDOPACOM, 2024"
+    "sourceFile": "DOW-UAP-PR48, Unresolved UAP Report, INDOPACOM, 2024",
+    "source": "pentagon-2026"
   },
   {
     "id": "DC-2026-0158",
@@ -2984,6 +3636,7 @@
     "strangenessScore": 4,
     "confidence": 0.7,
     "durationMinutes": 0,
-    "sourceFile": "DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026"
+    "sourceFile": "DOW-UAP-PR49, Unresolved UAP Report, Department of the Army, 2026",
+    "source": "pentagon-2026"
   }
 ]

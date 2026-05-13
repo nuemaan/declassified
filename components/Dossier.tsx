@@ -83,6 +83,7 @@ export function Dossier() {
             bucket={strangenessBucket(sighting.strangenessScore)}
             score={sighting.strangenessScore}
             userSubmitted={!!sighting.userSubmitted}
+            source={sighting.source}
             onClose={() => setSelected(null)}
           />
 
@@ -160,12 +161,14 @@ function DossierHeader({
   bucket,
   score,
   userSubmitted,
+  source,
   onClose,
 }: {
   id: string;
   bucket: "phosphor" | "amber" | "redalert";
   score: number;
   userSubmitted: boolean;
+  source?: import("@/lib/types").SightingSource;
   onClose: () => void;
 }) {
   return (
@@ -174,7 +177,11 @@ function DossierHeader({
         <div className={`border px-2 py-1 text-[9px] uppercase tracking-wider2 ${BUCKET_RING[bucket]}`}>
           {BUCKET_LABEL[bucket]}
         </div>
-        {userSubmitted ? (
+        {source === "blue-book" ? (
+          <div className="border border-graticule/70 bg-graticule/10 px-2 py-1 text-[9px] uppercase tracking-wider2 text-graticule">
+            [blue book]
+          </div>
+        ) : userSubmitted ? (
           <div className="border border-amber/70 bg-amber/10 px-2 py-1 text-[9px] uppercase tracking-wider2 text-amber">
             [user-submitted]
           </div>

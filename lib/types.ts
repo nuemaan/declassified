@@ -3,6 +3,15 @@
 
 export type Agency = "FBI" | "DoD" | "NASA" | "State" | "Other";
 
+/**
+ * Where a sighting record originated. The UI badges these so users know
+ * what kind of source is behind each marker.
+ */
+export type SightingSource =
+  | "pentagon-2026" // war.gov/ufo May 8 2026 release
+  | "blue-book" // USAF Project Blue Book 1947-1969 (National Archives)
+  | "user-submitted"; // local browser submissions, Claude-moderated
+
 export type SightingType =
   | "visual"
   | "radar"
@@ -40,9 +49,11 @@ export interface Sighting {
   durationMinutes: number;
   /** Source filename inside data/raw/files/ (mock entries reference a stub). */
   sourceFile: string;
+  /** Where this record came from. Drives the source badge + filter dimension. */
+  source?: SightingSource;
   /** Optional one-liner that captures the case's character. */
   hook?: string;
-  /** True if added through the user-submissions flow. */
+  /** True if added through the user-submissions flow. Mirrors source==="user-submitted" for back-compat. */
   userSubmitted?: boolean;
 }
 

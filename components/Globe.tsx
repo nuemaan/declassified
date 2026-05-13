@@ -74,6 +74,7 @@ export default function Globe({ sightings }: GlobeProps) {
   const agencyFilter = useArchive((s) => s.agencyFilter);
   const typeFilter = useArchive((s) => s.typeFilter);
   const bucketFilter = useArchive((s) => s.bucketFilter);
+  const sourceFilter = useArchive((s) => s.sourceFilter);
 
   // Merge static + user-submitted sightings, refreshed whenever submissions change.
   const [userSubmissions, setUserSubmissions] = useState<Sighting[]>([]);
@@ -97,8 +98,13 @@ export default function Globe({ sightings }: GlobeProps) {
       .filter((s) =>
         bucketFilter === null ? true : bucketFilter.has(strangenessBucket(s.strangenessScore))
       )
-      .map(toMarker);
-  }, [mergedSightings, revealedThrough, agencyFilter, typeFilter, bucketFilter]);
+      .filter((s) => {
+        if (sourceFilter === null) return true;
+        const src = s.source ?? (s.userSubmitted ? "user-submitted" : "pentagon-2026");
+        return sourceFilter.has(src);
+      })
+      .map((s) => ({ ...toMarker(s), source: s.source ?? "pentagon-2026" }));
+  }, [mergedSightings, revealedThrough, agencyFilter, typeFilter, bucketFilter, sourceFilter]);
 
   // Connections — top arcs between visible sightings whose similarity is above
   // a threshold. Recomputed when the visible set changes (timeline playhead)
@@ -217,21 +223,30 @@ export default function Globe({ sightings }: GlobeProps) {
           pointLng={(p: object) => (p as MarkerPoint).lng}
           pointAltitude={0.008}
           pointRadius={(p: object) => (p as MarkerPoint).radius}
-          pointColor={(p: object) => (p as MarkerPoint).color}
+          pointColor={(p: object) => {
+            const m = p as MarkerPoint & { source: string };
+            // Blue Book + user-submitted: dim the fill so the source reads
+            // immediately on the globe vs Pentagon's solid markers.
+            if (m.source === "blue-book") return m.color + "AA";
+            return m.color;
+          }}
           pointResolution={6}
           pointLabel={(p: object) => {
             const m = p as MarkerPoint;
             const s = mergedSightings.find((x) => x.id === m.id);
             if (!s) return "";
             const region = s.location.region ?? s.location.country;
-            const userTag = s.userSubmitted
-              ? `<div style="color:#FFA500;font-size:9px;text-transform:uppercase;letter-spacing:0.18em;margin-top:2px;">[USER-SUBMITTED]</div>`
-              : "";
+            const sourceLabel =
+              s.source === "blue-book"
+                ? `<div style="color:#0EE6FF;font-size:9px;text-transform:uppercase;letter-spacing:0.18em;margin-top:2px;">[BLUE BOOK]</div>`
+                : s.userSubmitted
+                  ? `<div style="color:#FFA500;font-size:9px;text-transform:uppercase;letter-spacing:0.18em;margin-top:2px;">[USER-SUBMITTED]</div>`
+                  : "";
             return `<div style="font-family:ui-monospace,monospace;background:#000;border:1px solid ${m.color};padding:6px 8px;color:#F0EDE5;font-size:11px;letter-spacing:0.04em;">
               <div style="color:${m.color};font-size:9px;text-transform:uppercase;letter-spacing:0.18em;">${s.id}</div>
               <div style="margin-top:2px;">${region}</div>
               <div style="color:#8C887E;font-size:9px;margin-top:2px;">${s.date} · ${s.agency} · ${s.type}</div>
-              ${userTag}
+              ${sourceLabel}
             </div>`;
           }}
           onPointClick={(p: object) => {

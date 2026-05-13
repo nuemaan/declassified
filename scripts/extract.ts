@@ -364,6 +364,7 @@ async function main(): Promise<void> {
       confidence: 0.7,
       durationMinutes: 0,
       sourceFile: r.title.trim() || `release_1/${id}`,
+      source: "pentagon-2026" as const,
       hook: undefined,
       mediaUrl: r.pdfLink.trim() || undefined,
     };

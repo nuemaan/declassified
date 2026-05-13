@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { Agency, SightingType } from "./types";
+import type { Agency, SightingSource, SightingType } from "./types";
 
 type Bucket = "phosphor" | "amber" | "redalert";
 
@@ -30,10 +30,12 @@ interface ArchiveState {
   agencyFilter: ReadonlySet<Agency> | null;
   typeFilter: ReadonlySet<SightingType> | null;
   bucketFilter: ReadonlySet<Bucket> | null;
+  sourceFilter: ReadonlySet<SightingSource> | null;
   toggleFilterRail: () => void;
   setAgencyFilter: (next: ReadonlySet<Agency> | null) => void;
   setTypeFilter: (next: ReadonlySet<SightingType> | null) => void;
   setBucketFilter: (next: ReadonlySet<Bucket> | null) => void;
+  setSourceFilter: (next: ReadonlySet<SightingSource> | null) => void;
   resetFilters: () => void;
 }
 
@@ -60,10 +62,12 @@ export const useArchive = create<ArchiveState>((set) => ({
   agencyFilter: null,
   typeFilter: null,
   bucketFilter: null,
+  sourceFilter: null,
   toggleFilterRail: () => set((s) => ({ filterRailOpen: !s.filterRailOpen })),
   setAgencyFilter: (next) => set({ agencyFilter: next }),
   setTypeFilter: (next) => set({ typeFilter: next }),
   setBucketFilter: (next) => set({ bucketFilter: next }),
+  setSourceFilter: (next) => set({ sourceFilter: next }),
   resetFilters: () =>
-    set({ agencyFilter: null, typeFilter: null, bucketFilter: null }),
+    set({ agencyFilter: null, typeFilter: null, bucketFilter: null, sourceFilter: null }),
 }));

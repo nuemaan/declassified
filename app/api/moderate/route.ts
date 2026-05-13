@@ -166,6 +166,7 @@ export async function POST(req: NextRequest) {
       confidence: 0.35, // user-submitted: capped lower
       durationMinutes: c.durationMinutes,
       sourceFile: `user/${id}.txt`,
+      source: "user-submitted",
       userSubmitted: true,
     };
 
