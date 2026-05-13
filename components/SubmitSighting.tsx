@@ -368,9 +368,17 @@ function SubmitForm({
       </Field>
 
       {!byoKey ? (
-        <div className="border border-amber/40 bg-amber/5 px-3 py-2 text-[10px] text-amber mono-tight">
-          No Anthropic key configured. Open a dossier → AI Analyst → "▸ bring your own anthropic key"
-          to set one. Moderation runs on Claude.
+        <div className="border border-amber/40 bg-amber/5 px-3 py-2 text-[10px] leading-relaxed text-amber mono-tight">
+          ▸ moderation needs your own Anthropic key. Get one free at{" "}
+          <a
+            href="https://console.anthropic.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-amber/80"
+          >
+            console.anthropic.com
+          </a>
+          , then save it inside any dossier → AI Analyst panel.
         </div>
       ) : null}
 

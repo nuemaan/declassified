@@ -7,6 +7,7 @@ import { Dossier } from "@/components/Dossier";
 import { FeaturedDossierButton } from "@/components/FeaturedDossierButton";
 import { FilterRail } from "@/components/FilterRail";
 import { GlobeMount } from "@/components/GlobeMount";
+import { GuideButton } from "@/components/GuideButton";
 import { LocalAnomalyButton } from "@/components/LocalAnomaly";
 import { Timeline } from "@/components/Timeline";
 import { manifest, sightings } from "@/lib/data";
@@ -28,10 +29,11 @@ export default function HomePage() {
       {/* Top-left: case ref */}
       <CaseStamp />
 
-      {/* Top-right: classification stamp + audio toggle */}
+      {/* Top-right: classification stamp + audio toggle + guide button */}
       <ClassificationStamp />
-      <div className="absolute right-4 top-12 z-20">
+      <div className="absolute right-4 top-12 z-20 flex flex-col items-end gap-1.5">
         <AudioToggle />
+        <GuideButton />
       </div>
 
       {/* Bottom-left: dataset readout (sits above the timeline strip) */}

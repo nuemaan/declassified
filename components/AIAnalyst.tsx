@@ -10,9 +10,10 @@ interface AIAnalystProps {
 }
 
 type FetchState =
-  | { phase: "idle" }
+  | { phase: "idle-no-key" } // no stored key, surface BYO-key panel
+  | { phase: "idle-with-key" } // stored key, show "Run analysis" button
   | { phase: "loading" }
-  | { phase: "needs-key" }
+  | { phase: "needs-key" } // server reported no key
   | { phase: "ok"; report: AnalystReport; mode: "server" | "byok" }
   | { phase: "error"; message: string };
 
@@ -38,21 +39,10 @@ function writeCachedReport(id: string, report: AnalystReport): void {
 }
 
 export function AIAnalyst({ sightingId }: AIAnalystProps) {
-  const [state, setState] = useState<FetchState>({ phase: "idle" });
+  const [state, setState] = useState<FetchState>({ phase: "idle-no-key" });
   const [byoKey, setByoKey] = useState("");
-  const [showKeyPanel, setShowKeyPanel] = useState(false);
 
-  // On mount / sighting change, show the cached report if we have one.
-  useEffect(() => {
-    setShowKeyPanel(false);
-    const cached = readCachedReport(sightingId);
-    if (cached) {
-      setState({ phase: "ok", report: cached, mode: "byok" });
-    } else {
-      setState({ phase: "idle" });
-    }
-  }, [sightingId]);
-
+  // Load stored key once on mount.
   useEffect(() => {
     try {
       const k = window.localStorage.getItem(KEY_STORAGE);
@@ -61,6 +51,23 @@ export function AIAnalyst({ sightingId }: AIAnalystProps) {
       /* noop */
     }
   }, []);
+
+  // On mount / sighting change, surface the cached report if any.
+  // Otherwise pick the right idle phase based on whether the user has stored a key.
+  useEffect(() => {
+    const cached = readCachedReport(sightingId);
+    if (cached) {
+      setState({ phase: "ok", report: cached, mode: "byok" });
+      return;
+    }
+    let stored = "";
+    try {
+      stored = window.localStorage.getItem(KEY_STORAGE) ?? "";
+    } catch {
+      /* noop */
+    }
+    setState({ phase: stored.trim() ? "idle-with-key" : "idle-no-key" });
+  }, [sightingId]);
 
   const run = async () => {
     setState({ phase: "loading" });
@@ -78,7 +85,6 @@ export function AIAnalyst({ sightingId }: AIAnalystProps) {
 
       if ("error" in data) {
         if (data.error === "no-key") {
-          setShowKeyPanel(true);
           setState({ phase: "needs-key" });
         } else {
           setState({ phase: "error", message: data.message ?? data.error });
@@ -112,18 +118,41 @@ export function AIAnalyst({ sightingId }: AIAnalystProps) {
     } catch {
       /* noop */
     }
+    setState({ phase: "idle-no-key" });
   };
+
+  const showKey =
+    state.phase === "idle-no-key" || state.phase === "needs-key";
 
   return (
     <div className="space-y-3">
-      {state.phase === "idle" ? (
-        <button
-          type="button"
-          onClick={run}
-          className="block w-full border border-phosphor/60 bg-phosphor/5 px-3 py-2 text-[11px] uppercase tracking-wider2 text-phosphor hover:bg-phosphor/10"
-        >
-          ▸ run plausibility analysis
-        </button>
+      {showKey ? (
+        <KeyPanel
+          value={byoKey}
+          onChange={setByoKey}
+          onSave={() => {
+            saveKey();
+            run();
+          }}
+        />
+      ) : null}
+
+      {state.phase === "idle-with-key" ? (
+        <div className="space-y-2">
+          <button
+            type="button"
+            onClick={run}
+            className="block w-full border border-phosphor/60 bg-phosphor/5 px-3 py-2 text-[11px] uppercase tracking-wider2 text-phosphor hover:bg-phosphor/10"
+          >
+            ▸ run plausibility analysis
+          </button>
+          <div className="flex items-center justify-between text-[9px] uppercase tracking-wider2 text-archive-paperDim/70">
+            <span>key stored locally</span>
+            <button type="button" onClick={clearKey} className="hover:text-redalert">
+              ▸ clear key
+            </button>
+          </div>
+        </div>
       ) : null}
 
       {state.phase === "loading" ? (
@@ -143,34 +172,13 @@ export function AIAnalyst({ sightingId }: AIAnalystProps) {
           </div>
           <button
             type="button"
-            onClick={() => setState({ phase: "idle" })}
+            onClick={() => setState({ phase: byoKey ? "idle-with-key" : "idle-no-key" })}
             className="block w-full border border-archive-line bg-archive-void px-3 py-2 text-[11px] uppercase tracking-wider2 text-archive-paper hover:border-phosphor hover:text-phosphor"
           >
             ▸ try again
           </button>
         </div>
       ) : null}
-
-      {state.phase === "needs-key" || showKeyPanel ? (
-        <KeyPanel
-          value={byoKey}
-          onChange={setByoKey}
-          onSave={() => {
-            saveKey();
-            run();
-          }}
-          onClear={clearKey}
-          onClose={() => setShowKeyPanel(false)}
-        />
-      ) : (
-        <button
-          type="button"
-          onClick={() => setShowKeyPanel(true)}
-          className="text-[9px] uppercase tracking-wider2 text-archive-paperDim/70 hover:text-archive-paper"
-        >
-          ▸ bring your own anthropic key
-        </button>
-      )}
     </div>
   );
 }
@@ -277,30 +285,29 @@ function KeyPanel({
   value,
   onChange,
   onSave,
-  onClear,
-  onClose,
 }: {
   value: string;
   onChange: (v: string) => void;
   onSave: () => void;
-  onClear: () => void;
-  onClose: () => void;
 }) {
   return (
-    <div className="border border-amber/40 bg-archive-void/60 p-3">
+    <div className="border border-amber/50 bg-amber/5 p-3">
       <div className="mb-2 flex items-center justify-between text-[9px] uppercase tracking-wider2 text-amber/90">
-        <span>bring your own key</span>
-        <button
-          type="button"
-          onClick={onClose}
-          className="text-archive-paperDim hover:text-archive-paper"
-          aria-label="Close BYO-key panel"
+        <span>▸ bring your own anthropic key</span>
+        <a
+          href="https://console.anthropic.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-amber/80 underline hover:text-amber"
         >
-          close
-        </button>
+          get a key →
+        </a>
       </div>
-      <p className="mb-2 text-[10px] text-archive-paper/90 mono-tight">
-        Paste an Anthropic API key. Stored only in this browser. Sent to /api/analyze as a header — never logged.
+      <p className="mb-2 text-[10px] leading-relaxed text-archive-paper/90 mono-tight">
+        The AI analyst is powered by Claude. This site doesn&apos;t ship a key — supply your own
+        (free signup with a generous free tier at{" "}
+        <span className="text-amber">console.anthropic.com</span>). It&apos;s stored only in your
+        browser&apos;s localStorage and forwarded as a header — never logged server-side.
       </p>
       <input
         type="password"
@@ -311,23 +318,14 @@ function KeyPanel({
         placeholder="sk-ant-..."
         className="block w-full border border-archive-line bg-archive-void px-2 py-1.5 text-[11px] text-archive-paper outline-none placeholder:text-archive-paperDim/40 focus:border-phosphor"
       />
-      <div className="mt-2 grid grid-cols-2 gap-2">
-        <button
-          type="button"
-          onClick={onSave}
-          disabled={!value.trim()}
-          className="border border-phosphor/60 bg-phosphor/5 px-2 py-1.5 text-[10px] uppercase tracking-wider2 text-phosphor hover:bg-phosphor/10 disabled:opacity-30"
-        >
-          ▸ save + run
-        </button>
-        <button
-          type="button"
-          onClick={onClear}
-          className="border border-archive-line bg-archive-void px-2 py-1.5 text-[10px] uppercase tracking-wider2 text-archive-paperDim hover:border-redalert hover:text-redalert"
-        >
-          ▸ clear
-        </button>
-      </div>
+      <button
+        type="button"
+        onClick={onSave}
+        disabled={!value.trim()}
+        className="mt-2 block w-full border border-phosphor/60 bg-phosphor/5 px-2 py-1.5 text-[10px] uppercase tracking-wider2 text-phosphor hover:bg-phosphor/10 disabled:opacity-30"
+      >
+        ▸ save key + run analysis
+      </button>
     </div>
   );
 }
